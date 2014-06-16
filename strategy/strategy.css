@@ -176,10 +176,11 @@ nav h1 {
     width: 675px;
     background: #ffffff;
     height: 165px;
-    padding: 40px 0 40px 70px;
+    padding: 40px 0 40px 0px;
 }
 .big-red {
     color: red;
+    text-align: center;
     font-family: "Helvetica Neue Light Bold","Helvetica",sans-serif;
     font-size: 28px;
     margin: 0 auto;
@@ -189,7 +190,7 @@ nav h1 {
     color: #636466;
     font-family: "Helvetica Neue Light Italic","Helvetica",sans-serif;
     text-align: center;
-    width: 575px;
+    width: 745px;
 }
 .white-wrap {
     float: left;
@@ -370,5 +371,49 @@ div.wpcf7-validation-errors {
     margin-left: 35px!important;
     display: block;
 }
+.calc-icon {
+    background: url("imgs/calc-icon.png");
+    float: right;
+    height: 81px;
+    width: 171px; ;
+}
+.mc-calc {
+    float: left;
+    background: #00ff00;
+    height: 515px;
+    width: 100%;
+}
+.form-left.copy-form h2 {
+    margin: 28px 25px 17px 25px;
+    font-size: 15px;
+}
+.copy-form-right {
+    float: left;
+    background: url("imgs/copy-form-tout.png");
+    height: 305px;
+    width: 475px;
+}
+.calc-wrap {
+    float: left;
+    padding: 1px;
+}
+.she-points {
+    float: left;
+    background: url("imgs/she-points.png");
+    width: 662px;
+    height: 192px;
+    margin-left: 25px;
+    padding: 25px 0 0 60px;
 
-
+}
+.she-points h3 {
+    color: red;
+    font-family: 'Helvetica Neue Light Bold Condensed','Helvetica', sans-serif;
+    font-size: 17px;
+}
+.she-points p {
+    font-family: 'Helvetica Neue Light Condensed','Helvetica', sans-serif;
+    font-size: 13px;
+    line-height: 20px:w
+;
+}

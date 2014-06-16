@@ -1,6 +1,6 @@
 <?php
 
-/* Template Name: COPY */
+        /* Template Name: STRATEGY */
 
 ?>
 <!doctype html>
@@ -22,36 +22,38 @@
     <nav>
         <h1 class="head-logo"><a href="http://highperformancedm.com/">High Performance Direct Marketing</a> </h1>
     </nav>
-    <div class="calc-icon"></div>
+    <div class="win-icon"></div>
 </header>
 <div class="mc-wrap copy-whitey">
     <section class="form-tout">
-        <div class="form-left copy-form">
-            <h2>Try The <span class="form-bold">Copy </span> Calcualtor Now <br>
-             Find Words That Sell!! </h2>
+        <div class="form-left">
+            <h2>Review This Winning <span class="form-bold">Strategy </span> Now!</h2>
 
-            <?php echo do_shortcode('[contact-form-7 id="222" title="Copy Form"]'); ?>
+                <?php echo do_shortcode('[contact-form-7 id="215" title="Strategy"]'); ?>
 
             <div class="no-ob"><span>NO OBLIGATION</span></div>
 
         </div>
-        <div class="copy-form-right">
+        <div class="form-right">
+            <div class="form-right-wrap">
+                <span class="instantly">Instantly</span>
+                <p>review the strategy<br> document that doubled<br> sales leads for an<br> insurance company!</p>
+                <blockquote>"We now have six<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;new mail controls!"</blockquote>
+            </div>
         </div>
     </section>
     <section class="call-out">
-        <blockquote class="big-red">Instantly find out if the words you're using in<br>
-        your packages could be improved upon.<br>
-        Try our copy calculator now!</blockquote>
-        <p>If you answer honestly, it will tell you if your<br>
-        direct mail could use a little more oomph!</p>
+        <blockquote class="big-red">"HPDM's marketing recommendation and <br>execution was brilliant - they helped increase<br> our projected revenues by over $9 million."</blockquote>
+        <p>If your mail programs are flat, tired and just not responding like they<br> used to, we can help! See how smart our FREE recomendations are.</p>
     </section>
     <div class="white-wrap">
         <section class="call-out bob">
-            <blockquote>"Consumers still buy products whose advertising<br>
-                promises them value for money, beauty, nutrition, relief<br>
-                from suffering, social status and so on."</blockquote>
-            <span class="quote-name">- David Ogilvy,</span><br>
-            <span class="quote-title">Ogilvy on Advertising</span>
+            <blockquote>"The plan forces the team to get it right before you start<br>
+                burning time and money. This document also becomes the<br>
+                touchstone you use to bring both internal and external resources<br>
+                back to focus on the specific mission"</blockquote>
+            <span class="quote-name">- Bob Hacker,</span><br>
+            <span class="quote-title">30 Year DM Veteran, Harvard MBA & Director of Strategy for HPDM</span>
         </section>
     </div>
 
