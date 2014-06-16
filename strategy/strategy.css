@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'Helvetica Neue Light Bold Italic';
+    src: url('fonts/HelveticaNeueLTStd-BdIt.otf') format('otf');
+        src: url('fonts/HelveticaNeueLTStd-BdIt.otf') format('otf');
+
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Light Roman';
+    src: url('fonts/HelveticaNeueLTStd-Roman.otf') format('otf');
+        src: url('fonts/HelveticaNeueLTStd-Roman.otf') format('otf');
+
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Light Condensed';
+    src: url('fonts/HelveticaNeueLTStd-Cn.otf') format('otf');
+        src: url('fonts/HelveticaNeueLTStd-Cn.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Helvetica Neue Light Bold';
+    src: url('fonts/HelveticaNeueLTStd-Bd.otf') format('otf');
+        src: url('fonts/HelveticaNeueLTStd-Bd.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Light Italic';
+    src: url('fonts/HelveticaNeueLTStd-It.otf') format('otf');
+        src: url('fonts/HelveticaNeueLTStd-It.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Helvetica Neue Light Bold Condensed';
+    src: url('fonts/HelveticaNeueLTStd-BdCn.otf') format('otf');
+        src: url('fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Times Light Bold Italic';
+    src: url('fonts/TimesLTStd-BoldItalic.otf') format('otf');
+        src: url('fonts/TimesLTStd-BoldItalic.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Times Light Italic';
+    src: url('fonts/TimesLTStd-Italic.otf') format('otf');
+        src: url('fonts/TimesLTStd-Italic.ttf') format('truetype');
+
+}
+
+body {
+    background: #f6f6f7;
+}
+.mc-wrap {
+    width: 745px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.copy-whitey {
+    background: #ffffff;
+    height: 810px;
+}
+header {
+    background: #ffffff!important;
+    height: 81px;
+}
+nav h1 {
+
+    margin: 0px;
+}
+
+.head-logo a {
+    background: url("imgs/logo-strategy.png");
+    float:left;
+    height: 81px;
+    width: 328px;
+    text-indent: -99999px;
+    text-decoration: none;
+
+}
+.win-icon {
+    background: url("imgs/winning-icon.png");
+    float: right;
+    height: 81px;
+    width: 171px; ;
+}
+.form-left {
+    position: relative;
+    float: left;
+    background: #636466;
+    width: 270px ;
+    min-height: 305px;
+}
+.form-left h2 {
+    clear: both;
+    margin: 0;
+    color: #ffffff;
+    font-family: "Helvetica Neue Light Roman","Helvetica",sans-serif;
+    font-size: 20px ;
+    margin: 28px 33px 20px 33px;
+
+}
+.form-bold {
+    font-weight: bold;
+    font-family: "Helvetica Neue Light Bold","Helvetica",sans-serif;
+}
+.form-left input {
+    width: 193px;
+    height: 22px;
+    margin: 2px  0 0 35px;
+}
+.form-left input[type="submit"]{
+    width: 132px;
+    margin: 8px 0 0 72px;
+    background: #dcddde;
+    color: black;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 6px;
+    -khtml-border-radius: 10px;
+    cursor: pointer;
+}
+.form-txt {
+    font-family: "Helvetica Neue Light Roman","Helvetica",sans-serif;
+    font-size: 8px;
+    margin-left: 35px;
+    color: #ffffff;
+
+}
+.no-ob {
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    margin-left: 1px;
+    width: 270px;
+    font-family: "Helvetica Neue Light Condensed","Helvetica",sans-serif;
+    font-size: 12px
+}
+.form-right {
+    float: left;
+    background: url("imgs/form-suit.png");
+    height: 305px;
+    width: 475px;
+}
+.form-right-wrap {
+    padding: 58px 0 20px 23px;
+    font-style: italic;
+}
+.instantly {
+    color: red;
+    font-family: "Helvetica Neue Light Bold Italic","Helvetica",sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.form-right-wrap p {
+    color:#636466;
+    font-family: "Helvetica Neue Light Bold Italic","Helvetica",sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+.form-right-wrap blockquote {
+    color: #636466;
+    font-family: "Times Light Bold Italic","Times",serif;
+    font-size: 21px;
+    padding-top: 23px;
+    margin: 0;
+    border-top: 1px solid;
+    width: 225px;
+}
+.call-out {
+    float: left;
+    width: 675px;
+    background: #ffffff;
+    height: 165px;
+    padding: 40px 0 40px 70px;
+}
+.big-red {
+    color: red;
+    font-family: "Helvetica Neue Light Bold","Helvetica",sans-serif;
+    font-size: 28px;
+    margin: 0 auto;
+    width: 745px;
+}
+.call-out p {
+    color: #636466;
+    font-family: "Helvetica Neue Light Italic","Helvetica",sans-serif;
+    text-align: center;
+    width: 575px;
+}
+.white-wrap {
+    float: left;
+    width: 100%;
+    height: 245px;
+    background: #ffffff;
+}
+.bob {
+    color:#636466;
+    text-align: center;
+    font-family: "Times Light Italic","Times",serif;
+    font-size: 22px;
+    border-top: 1px solid #636466;
+    width: 690px;
+    margin: 0 0 35px 25px;
+    padding: 15px 0 30px 5px;
+}
+.quote-name {
+    font-size: 18px;
+}
+.quote-title {
+    font-size: 18px;
+}
+.footer-left{
+    font-family: "Helvetica Neue Light Roman","Helvetica",sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    background: #636466;
+    float: left;
+    width: 550px;
+    height: 200px;
+}
+.logo-wrap {
+    float: left;
+    width: 100%;
+}
+.footer-logo {
+    float: left;
+    padding: 50px 0 15px 50px ;
+}
+.footer-address {
+    margin-left: 50px;
+    line-height: 25px;
+}
+.footer-right {
+    font-family: "Helvetica Neue Light Roman","Helvetica",sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    background: #636466;
+    float: right;
+    width: 195px;
+    height: 114px;
+    padding-top: 86px;
+}
+.footer-right a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-name {
+    font-weight: bold;
+}
+.whitey {
+    height: 1616px;
+    background: #ffffff;
+}
+.gray-bar-top {
+    float: left;
+    background: #636466;
+    width: 695px;
+    height: 1px;
+    margin-left: 25px;
+}
+.response-top-left {
+    float: left;
+    width: 165px;
+    padding: 12px 25px 50px 25px;
+}
+
+.response-top-left p {
+    font-family: 'Helvetica Neue Light Condensed',"Helvetica",sans-serif;
+    font-size: 11px;
+}
+.red-top {
+    color: red;
+    font-family: 'Helvetica Neue Light Bold Condensed',"Helvetica",sans-serif;
+    font-size: 15px!important;
+}
+.response-top-left ul {
+    padding-left: 0;
+}
+.response-top-left li {
+    list-style: none;
+    font-family: 'Helvetica Neue Light Condensed',"Helvetica",sans-serif;
+    font-size: 11px;
+}
+
+.pdf-holder {
+    float: left;
+    width: 475px;
+    padding: 30px 25px 50px 25px;
+}
+.gde-text a {
+    text-decoration: none;
+    color: red;
+}
+.gray-bar {
+    float: left;
+    background: #636466;
+    width: 695px;
+    height: 20px;
+    margin-left: 25px;
+}
+
+.response-bottom-left {
+    float: left;
+    width: 165px;
+    padding: 12px 25px 50px 25px;
+}
+
+.response-bottom-left p {
+    font-family: 'Helvetica Neue Light Condensed',"Helvetica",sans-serif;
+    font-size: 11px;
+}
+.download-btn {
+    float: left;
+    height: 22px;
+    width: 132px;
+    text-align: center;
+    color: #ffffff;
+    margin: 8px 0 0 11px;
+    background:red;
+    text-decoration: none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 6px;
+    -khtml-border-radius: 10px;
+}
+.copy-holder {
+    float: left;
+    width: 475px;
+    padding: 30px 25px 50px 25px;
+}
+.top-red {
+    font-family: "Helvetica Neue Light Bold","Helvetica",sans-serif;
+    font-size: 19px;
+    color: red;
+
+}
+.copy-holder span {
+    font-size: 11px;
+    font-family: "Helvetica Neue Light Roman","Helvetica",sans-serif;
+}
+.copy-holder p {
+    font-size: 11px;
+    font-family: "Helvetica Neue Light Roman","Helvetica",sans-serif;
+}
+div.wpcf7-mail-sent-ok {
+   display: none!important;
+}
+
+div.wpcf7-mail-sent-ng {
+
+    display: none!important;
+}
+
+div.wpcf7-spam-blocked {
+
+    display: none!important;
+}
+
+div.wpcf7-validation-errors {
+
+    display: none!important;
+}
+.wpcf7-not-valid-tip {
+    color: #F00;
+    font-size: 10px!important;
+    margin-left: 35px!important;
+    display: block;
+}
+
+

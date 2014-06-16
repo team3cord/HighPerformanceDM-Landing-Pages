@@ -1,0 +1,1 @@
+[21-Feb-2014 18:26:58 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/mhoback/public_html/wp-content/themes/hpdm/index.php on line 1
