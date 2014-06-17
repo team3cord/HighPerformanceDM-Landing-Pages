@@ -15,6 +15,8 @@
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
     <link rel="stylesheet" href="../wp-content/themes/hpdm/strategy/strategy.css">
+    <link rel="shortcut icon" type="image/png" href="http://highperformancedm.com/wp-content/themes/hpdm/favicon.png">
+
     <?php wp_head(); ?>
 </head>
 <body>

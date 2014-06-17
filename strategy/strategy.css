@@ -149,7 +149,7 @@ nav h1 {
     font-style: italic;
 }
 .instantly {
-    color: red;
+    color: #d01f2e;
     font-family: "Helvetica Neue Light Bold Italic","Helvetica",sans-serif;
     font-weight: bold;
     font-size: 40px;
@@ -179,7 +179,7 @@ nav h1 {
     padding: 40px 0 40px 0px;
 }
 .big-red {
-    color: red;
+    color: #d01f2e;
     text-align: center;
     font-family: "Helvetica Neue Light Bold","Helvetica",sans-serif;
     font-size: 28px;
@@ -274,8 +274,8 @@ nav h1 {
     font-size: 11px;
 }
 .red-top {
-    color: red;
-    font-family: 'Helvetica Neue Light Bold Condensed',"Helvetica",sans-serif;
+    color: #d01f2e;
+    font-family: 'Helvetica Neue Light Bold Condensed',"Helvetica",sans-serif!important;
     font-size: 15px!important;
 }
 .response-top-left ul {
@@ -294,7 +294,7 @@ nav h1 {
 }
 .gde-text a {
     text-decoration: none;
-    color: red;
+    color: #d01f2e;
 }
 .gray-bar {
     float: left;
@@ -313,6 +313,7 @@ nav h1 {
 .response-bottom-left p {
     font-family: 'Helvetica Neue Light Condensed',"Helvetica",sans-serif;
     font-size: 11px;
+    text-align: justify;
 }
 .download-btn {
     float: left;
@@ -321,7 +322,7 @@ nav h1 {
     text-align: center;
     color: #ffffff;
     margin: 8px 0 0 11px;
-    background:red;
+    background:#d01f2e;
     text-decoration: none;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -336,7 +337,7 @@ nav h1 {
 .top-red {
     font-family: "Helvetica Neue Light Bold","Helvetica",sans-serif;
     font-size: 19px;
-    color: red;
+    color: #d01f2e;
 
 }
 .copy-holder span {
@@ -407,7 +408,7 @@ div.wpcf7-validation-errors {
 
 }
 .she-points h3 {
-    color: red;
+    color: #d01f2e;
     font-family: 'Helvetica Neue Light Bold Condensed','Helvetica', sans-serif;
     font-size: 17px;
 }

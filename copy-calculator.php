@@ -17,6 +17,8 @@
     <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
     <link rel="stylesheet" href="../wp-content/themes/hpdm/strategy/strategy.css">
+    <link rel="shortcut icon" type="image/png" href="http://highperformancedm.com/wp-content/themes/hpdm/favicon.png">
+
     <?php wp_head(); ?>
 </head>
 <body>
@@ -33,6 +35,9 @@
 
     <div class="mc-calc">
         <div class="calc-list">
+            <ul>
+                <li class=""><input type="checkbox" value=""></li>
+            </ul>
 
         </div>
         <div class="calc-wrap">
@@ -58,27 +63,72 @@
         <p>
             Since 1986, Bob Hacker has specialized in new customer acquisition and built one of the most successful direct marketing agencies on the planet.  Bob sold his agency and retired in 2002, but is now helping large mail marketers by acting as Chief Strategist for a direct marketing services organization (High Performance Direct Marketing). Bob served on the editorial board of Target Marketing magazine and was a frequent writer and speaker on direct marketing issues.  He is a graduate of The Harvard Business School and the University of Washington. What follows is an excerpt  from his book showing just one of his many formulas for rational planning of direct mail marketing campaigns.
         </p>
-        <img src="../wp-content/themes/hpdm/strategy/imgs/dont-forget.png">
-        <a class="download-btn" href="http://hpdm.crosshatchcreative.com/wp-content/uploads/2014/06/hpdm-rec.pdf">Download</a>
+
     </aside>
 
     <div class="copy-holder">
-        <h2 class="top-red">Good Direct Marketers Use Cogent,<br>
-            Well-Reasoned Program Strategies And<br>
-            Get Them Approved Internally Before<br>
-            They Engage Outside Resources. </h2>
+        <h2 class="top-red">How To Create & Manage<br>
+        High-performance Copy</h2>
         <span>By Bob Hacker</span>
-        <p>Written plans — this is how you control internal and external teams. Get all the team input you need, and then write a campaign brief.
+        <p>Once you make sure your list selection is as good as it can be, the key determinants of success in any direct marketing campaign are copy and offer.  For great copy that drives high response, use these tried and proven rules:
         </p>
-        <p>Get the brief approved by the internal team before you give it to your agency or vendor.  (If you don’t have time to write it, make your agency or vendor do it, then get it approved internally before you start creative development.)</p>
-        <p>The plan forces the team to get it right before you start burning time and money.  This document also becomes the touchstone you use to bring both internal and external resources back to focus on the specific mission.  If a team member goes off on a tangent, use the document to put them back on point.  If goals or objectives start to shift, use the plan to re-focus them back to the agreed upon goal set or force them to support their recommended change with a written argument which then becomes the new program touchstone.</p>
-        <p>The fastest, highest performing and least painful programs we do always start this way. Always.</p>
-        <p>And still we see very few formal campaign briefs these days, well written or not.</p>
-        <p>A few years ago, I did an audit.   We did about 540 campaigns that year.  I went to our account management team and asked them how many started with a well-written brief.  The answer was four (4).  We wrote the other 536 since we won’t start the work without one.
+        <p>Avoid mission impossible at all costs.   One of the major faults in direct marketing planning is asking direct marketing to do the impossible.  This is where many programs fail, so before the first word is written, make sure the strategy is correct. </p>
+        <p>A good check question is, “Are you asking the program to do the difficult or impossible?”</p>
+        <p>For example, if you are selling a $49.95 software upgrade, it might be difficult, but it is possible — even necessary — to ask for and get the money in the lead package.  There isn’t enough margin to invest a lot of backend resources for conversion, so you either get the money in the first pass, or you don’t get it at all.  And the price point is low enough that people can and will make an impulse decision.</p>
+        <p>On the other hand, if you’re selling a $2 million software upgrade, to ask for the money in the lead package is a “mission impossible.”  No sane individual will write a check for $2,000,000 without going through a formal decision process.  The decision steps will be defined by the buyer, not the seller, and the buyer will take whatever time they need to reach a conclusion that they feel is 1) correct, and 2) they can justify to the powers that be.  So in this case, lead generation, with qualified leads going to a telesales or field sales organization, is almost always the most cost-effective strategy — even if you’re facing quarterly revenue shortfalls!</p>
+        <p>Revenue panic drives mission impossible marketing more than any other single factor.  A sales manager is behind target, afraid of missing his or her bonus.  “What can you do to help us make sales quota this quarter”, they cry?</p>
+        <p>If your typical selling cycle is 18 months, for example, the answer should be, “we did it 18 months ago.”  But politics and greed prevail and the “send me $2,000,000 by September 30th so I can make my bonus” letter goes out anyway.</p>
+        <p>The dumbest letter I ever received.  I received a letter one day.  If was from a golf club about 20 miles away.  To get there, you would have to drive 20 miles each way on I-405, the longest parking lot in Washington State.  Problems already: who targeted the geography.  There’s a very nice golf resort only 1.5 miles from my house, so why would I fight the worst traffic in the state to play a round or two?</p>
+        <p>Second big problem, I don’t play golf.  With the last name “Hacker”, you don’t.  There are lists you can rent that target by income and golf interest, obviously they didn’t use one of those lists.  Who’s doing this work, anyway?</p>
+        <span>And then I read the letter. </span>
+        <div class="yellow-block">
+            <p>Dear Mr. Hacker,</p>
+            <p>You’ll be pleased to know that there are a limited number of memberships available at (Name withheld to protect the guilty) Golf Resort & Club.</p>
+            <p>Between now and the end of the month, one can be yours for only $35,000 instead of the regular fee or $45,000.
+            </p>
+            <p>Call, (name of failing sales manager) to accept this fabulous offer.Yada, yada, yada.</p>
+        </div>
+            <p>Even if the targeting had been right, what were they thinking?</p>
+            <p>I’ve never seen the place.  I’ve never played there.  I haven’t had a drink in their bar or lunch in the clubhouse.  I don’t know anybody who plays there.  Don’t you think we should date a while before you ask me to marry you and bring along a $35,000 dowry?
+            </p>
+            <p>We did a campaign for another club.  It was a virtual club that didn’t even have a course of its own.  Instead, they had preferred tee times at 10 clubs around Seattle/Bellevue and a private “clubhouse” in downtown Bellevue for the members to hang out in.
+            </p>
+            <p>We sent a letter to dyed-in-the-wool golfers with money.  We told a compelling story about the benefits of membership — all the panache of an exclusive, private golf club, but you get preferred tee times a variety of great courses and tournaments instead of playing the same, boring course time after time.  To find out more, we invited them to come to the clubhouse in Bellevue.
+            </p>
+            <p>We tested two panels, one with a BRC or phone response, and the other with only a phone response option.  The BRC/phone package pulled 16%; the phone only pulled 12%.  We rolled out the phone only option because the selling process was faster and conversion to sales presentation was higher because of less phone-tag.
+            </p>
+            <p>The “send me $35,000 package” probably pulled about 0%.  When you get 0% response, the sales conversion, even at 100%, is 0%.  And it’s the direct marketer’s fault.
+            </p>
+            <p>With response rates of 12-16%, the direct marketer is off the hook.  The pressure is now all on the sales team, where it should be.  And life is great.
+            </p>
+            <p>Work backwards to maximize response and sell-through.</p>
+            <p>How do you separate the difficult from the impossible?  It’s easy, you work backwards.  Start with the buyer, not your agendas, concerns and problems.  Even the “dumbest letter” disaster in the last chapter could have been avoided if they had started the project worrying about me, not their paychecks.
+            </p>
+            <p>If the purchase price is low, almost anybody has the emotional ability and wherewithal to make a decision.  Then the selling process can be simple with little backend support or infrastructure.
+            </p>
+            <p>But high price point drives very different decision processes.  Teams must be formed.  The team will set a rigid decision agenda.  You have to understand the information they need to say yes or no.  When do they need it?  How do they want it delivered?  What processes do they use to make their decisions?  How do they get budgets approved?  What are timing constraints for approval?  For example, if you are asking for a major capital investment that has to go to the board for approval, what information do they need to take to the board and when would the money be allocated and spent?
+            </p>
+            <p>Do you really think you can make it happen with a two-page letter and a brochure?</p>
+            <p>Work backwards from them to you, and all will become clear.</p>
+            <p>Avoid marketing plans in drag.  Too many packages read like re-written Marcom plans — if there are 13 communications objectives for the year, all 13 have to be communicated on the first page of every letter.  Focus on a single action objective.  The more communications objectives you pile on, the lower the response rates will be.
+            </p>
+            <p>Get under their skin.  Remember that for us there’s no such thing as mass communication.  You’re writing to thousands of individual readers, who will read your copy one at a time.  So, before you sit down at the keyboard to talk to them, make sure you know who they are.  What do they want, what are they afraid of?  What wakes them up at 2 a.m.?  What is driving them forward?  What is holding them back?
+            </p>
+            <p>Companies don’t buy anything, people do.  Just like the consumer world, understand the target individual, not just the company.  Business people are still people.  Where do you get this information?  We’re talking about people, so it’s easy.  Trade publications wear their industry’s emotional heartstrings on their sleeves.  Want to know what a CIO is interested in, read what they read.  Farmers, marketing people, government purchasing, you name it, it works.
+            </p>
+            <p>Focus on the mindset of the recipient.  Advertising talks about the company and its products.  Bad direct marketing is all about company stuff, too.  But high-performance direct copy focuses on the mindset of the recipient and engages them one-to-one, based on what they care about.  You want to sell your product — they want to save time or money or look smarter.  You want to close a sale now — they want to buy based on their buying cycle and their purchase agenda and comfort level.  You want them to care deeply about your company, your brand, products and services.
+            </p>
+            <p>Capture their hearts to get to their minds.  Their wallets will follow.  They don’t care about your company, your quarterly goals, your products and services or anything else you want to sell them.  Need proof?  Look at your own priorities.  Do you care or focus on other companies’ agendas, or are you wrapped up in your own stuff?  The battle for direct marketing engages at the point they open an email, read a direct mail package or turn to your direct response ad in a newspaper or magazine.  Right then, right now.  Let’s assume you have a new product, it’s 33% faster than the competition.  Let’s also assume that you know the target market is over-stressed, over-committed and burned out.  Let’s say your mail package arrives at the same time, in the same mailbox, with a competitor’s.  One of these packages promises, “The New Hypodrive 334i-556 is 33% faster in duodecaflop mode than any competitive unit currently available today.”  The other promises, “Now, you can get more done faster and easier.  You can now get ahead at work and spend more time with your family, too.”  Which one wins?  Which one do you want to be your package?  It’s the second package, the one that talks to the recipient like a real person who has real problems.  And years of testing proves it.
+            </p>
+            <p>Write like you talk.  Direct marketing is intimate communication.  The voice is one-to-one, not blasting from the rooftops.  Talk to them like they arefriends, in a conversational tone.  And write the way you talk.  Tell them, friend-to-friend, why they should consider your offer.  Ignore internally generated brand or design standards when they get in the way of your ability to engage one-to-one.  Remember, the “brand essence book” was written by a design firm or an advertising agency, neither ever having had direct responsibility to sell anything.  As direct marketing professionals, we don’t have that luxury.
+            </p>
+            <p>If you try to make them work, they won’t.  If the package is difficult to understand, they won’t work to “get it,” they just toss it.  If the layout is hard to read, they don’t work to “get it,” they just toss it.  If the jargon is too arcane, they don’t look it up in the jargon dictionary, they delete you with a click.  If you force them to work with difficult folds or upside down formats, they don’t.  If you bury the response device inside the brochure, they won’t look for it.  If they can’t figure out how to fill out the order form, they won’t.  So don’t.
+            </p>
+        <p>Don’t over-edit.  Let me let you in on a little known secret.  Direct marketing, particularly letter copy, does not survive editing well.  People try to smooth it — ragged copy usually works better.  People try to make it make more sense — rationality is often boring and boring reduces response, too.  The writer had an idea about how to manipulate the recipient to move now.  By the time it gets through committee, the big, exciting, bright red idea has been muted to dull gray.  Leave it alone, response rates will increase.
         </p>
-        <p>It’s crazy to let your agency control the strategy — that should be the client’s job.  No agency can be close enough to the inner workings of the sales process to get all the detail right.  Remember, the client controls the sales process, not the agency or vendor, and more campaigns flop because of poor backend implementation than poor front-end performance.
-        </p>
-        <p>If I were a VP of Sales & Marketing again, I wouldn’t hire anybody who couldn’t or wouldn’t write a cogent brief for every new campaign.  And I’d pay dearly for somebody who could and would do it right.  Without that document the chance of error, wasted time and money is just too high.</p>
+        <p>Let them respond any way they want.  We see many clients try to push people to the web, not because it’s better for the prospect, but because it’s better for them.  We see others push to the phone, or fax, or to BRC, again because it fits into the systems they’ve created, not necessarily because it’s the way the prospect wants to respond.  Let them respond in any way they want — mail, phone, fax, web, email or any other source as long as you can trap it — response rates will improve dramatically.  (The techno-geek caveat:  If you are talking to techies who are people-, paper-, phone- and fax-phobic, sending all inquiries to the web works fine.)</p>
+
+
     </div>
 </div>
 
