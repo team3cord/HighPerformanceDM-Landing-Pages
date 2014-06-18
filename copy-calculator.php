@@ -230,6 +230,7 @@
                 var posPercent = ((totalPos / totalChecked) * 100).toFixed(2);
                 var negPercent = (100 - posPercent).toFixed(2);
                 console.log(totalChecked, totalPos, totalNeg, posPercent, negPercent);
+            $('.copy-whitey').css('height','3191px');
             $('#display-total-words').html(totalChecked);
             $('#display-total-pos').html(totalPos);
             $('#display-total-neg').html(totalNeg);
@@ -258,6 +259,7 @@
             })
         $('#reset').on('click', function(){
 
+            $('.copy-whitey').css('height','2974px');
             $('#mc-display-pos').html('00.00%');
             $('#mc-display-neg').html('00.00%');
             $('.mc-calc-window').removeClass('override-caution override-negative');

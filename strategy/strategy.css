@@ -116,6 +116,7 @@ nav h1 {
     margin: 8px 0 0 72px;
     background: #dcddde;
     color: black;
+    font-size: 11px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 6px;
@@ -409,7 +410,7 @@ div.wpcf7-validation-errors {
     color: #d01f2e;
     font-family: "Helvetica Neue Light Roman", "Helvetica", sans-serif;
     font-size: 15px;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 .calc-list ul {
     float: left;
@@ -426,16 +427,16 @@ div.wpcf7-validation-errors {
     font-size: 13px;
 }
 #calc-ul-one {
-    padding-left: 24px;
+    padding-left: 15px;
 }
 #calc-ul-two{
-    padding-left: 24px;
+    padding-left: 20px;
 }
 #calc-ul-three {
-    padding-left: 24px;
+    padding-left: 20px;
 }
 #calc-ul-four{
-    padding-left: 24px;
+    padding-left: 20px;
 }
 .mc-calc-back {
     background: url("imgs/calc-background.png")no-repeat;
@@ -509,7 +510,7 @@ div.wpcf7-validation-errors {
 .she-points {
     float: left;
     background: url("imgs/she-points.png");
-    width: 662px;
+    width: 660px;
     height: 192px;
     margin-left: 25px;
     padding: 25px 0 0 60px;
