@@ -253,8 +253,13 @@ nav h1 {
     font-weight: bold;
 }
 .whitey {
-    height: 1616px;
+    height: 1668px;
     background: #ffffff;
+}
+.strategy-whitey {
+    height: 795:w
+px;
+    background: #00FF00;
 }
 .gray-bar-top {
     float: left;
@@ -271,7 +276,7 @@ nav h1 {
 
 .response-top-left p {
     font-family: 'Helvetica Neue Light Condensed',"Helvetica",sans-serif;
-    font-size: 11px;
+    font-size: 12px;
 }
 .red-top {
     color: #d01f2e;
@@ -284,7 +289,7 @@ nav h1 {
 .response-top-left li {
     list-style: none;
     font-family: 'Helvetica Neue Light Condensed',"Helvetica",sans-serif;
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .pdf-holder {
@@ -312,16 +317,19 @@ nav h1 {
 
 .response-bottom-left p {
     font-family: 'Helvetica Neue Light Condensed',"Helvetica",sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     text-align: justify;
 }
 .download-btn {
     float: left;
-    height: 22px;
+    height: 18px;
     width: 132px;
+    font-family: "Helvetica Neue Light", "Helvetica", sans-serif;
+    font-size: 12px;
     text-align: center;
     color: #ffffff;
     margin: 8px 0 0 11px;
+    padding-top: 5px;
     background:#d01f2e;
     text-decoration: none;
     -moz-border-radius: 10px;
@@ -336,16 +344,16 @@ nav h1 {
 }
 .top-red {
     font-family: "Helvetica Neue Light Bold","Helvetica",sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     color: #d01f2e;
 
 }
 .copy-holder span {
-    font-size: 11px;
+    font-size: 12px;
     font-family: "Helvetica Neue Light Roman","Helvetica",sans-serif;
 }
 .copy-holder p {
-    font-size: 11px;
+    font-size: 12px;
     font-family: "Helvetica Neue Light Roman","Helvetica",sans-serif;
 }
 div.wpcf7-mail-sent-ok {
@@ -379,11 +387,11 @@ div.wpcf7-validation-errors {
     width: 171px; ;
 }
 .mc-whitey {
-    height: 825px;
+    height: 795px;
     background: #ffffff;
 }
 .copy-whitey {
-    height: 2930px;
+    height: 2974px;
     background: #ffffff;
 }
 .mc-calc {

@@ -51,13 +51,13 @@
         </p>
         <ul>
             <li>&#x2713; HPDM's ControlBeater<br>
-            Execution beat the mail<br>
-            control by 62%.</li>
+            &nbsp;&nbsp;&nbsp;&nbsp;Execution beat the mail<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;control by 62%.</li>
             <li>&#x2713;HPDM tested 6 mail packages<br>
-            and won 5 of 6 times; 3 tests<br>
-            doubled response.</li>
+            &nbsp;&nbsp;&nbsp;&nbsp;and won 5 of 6 times; 3 tests<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;doubled response.</li>
             <li>&#x2713;Annual net revenue is projected<br>
-            to increase over $9 million.</li>
+            &nbsp;&nbsp;&nbsp;&nbsp;to increase over $9 million.</li>
         </ul>
 
     </aside>

@@ -26,7 +26,7 @@
     </nav>
     <div class="win-icon"></div>
 </header>
-<div class="mc-wrap copy-whitey">
+<div class="mc-wrap strategy-whitey">
     <section class="form-tout">
         <div class="form-left">
             <h2>Review This Winning <span class="form-bold">Strategy </span> Now!</h2>

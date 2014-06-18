@@ -222,6 +222,7 @@
     jQuery(function($){
 
         $('#calculate').on('click', function(){
+            $('#display-help').html(" HPDM can likely help you improve response rates through enhanced copy choices.");
             if ($('.mc-checkbox:checked').length > 0){
                 var totalChecked = $('.mc-checkbox:checked').length;
                 var totalPos = $('.pos:checked').length;
