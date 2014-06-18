@@ -332,7 +332,7 @@ nav h1 {
 .copy-holder {
     float: left;
     width: 475px;
-    padding: 30px 25px 50px 25px;
+    padding: 0px 25px 50px 25px;
 }
 .top-red {
     font-family: "Helvetica Neue Light Bold","Helvetica",sans-serif;
@@ -378,11 +378,109 @@ div.wpcf7-validation-errors {
     height: 81px;
     width: 171px; ;
 }
+.mc-whitey {
+    height: 825px;
+    background: #ffffff;
+}
+.copy-whitey {
+    height: 2930px;
+    background: #ffffff;
+}
 .mc-calc {
     float: left;
-    background: #00ff00;
-    height: 515px;
+    height: 307px;
     width: 100%;
+}
+.calc-list {
+    float: left;
+    width: 420px;
+    height: 310px;
+    padding: 25px 0 0 35px;
+}
+.calc-list h3 {
+    color: #d01f2e;
+    font-family: "Helvetica Neue Light Roman", "Helvetica", sans-serif;
+    font-size: 15px;
+    margin-left: 25px;
+}
+.calc-list ul {
+    float: left;
+    height: 225px;
+    list-style: none;
+    padding-top: 0;
+    margin-top: 0;
+}
+.mc-checkbox {
+    margin-right: 7px;
+}
+.calc-list li {
+    font-family: "Helvetica Neue Light Condensed", "Helvetica",sans-serif;
+    font-size: 13px;
+}
+#calc-ul-one {
+    padding-left: 24px;
+}
+#calc-ul-two{
+    padding-left: 24px;
+}
+#calc-ul-three {
+    padding-left: 24px;
+}
+#calc-ul-four{
+    padding-left: 24px;
+}
+.mc-calc-back {
+    background: url("imgs/calc-background.png")no-repeat;
+    width: 269px;
+    height: 273px;
+}
+.mc-calc-window {
+    position: absolute;
+    top: 50px;
+    left: 24px;
+    width: 229px;
+    height: 95px;
+    background: url("imgs/positive.png") no-repeat;
+}
+.override-caution {
+    background: url("imgs/caution.png")no-repeat!important;
+}
+.override-negative {
+    background: url("imgs/negative.png")no-repeat!important;
+}
+#mc-display-pos {
+    position: absolute;
+    top: 40px;
+    right: 129px;
+    font-family: "Arial",sans-serif ;
+    font-size: 25px;
+}
+#mc-display-neg {
+    position: absolute;
+    top: 40px;
+    right: 11px;
+    font-family: "Arial",sans-serif ;
+    font-size: 25px;
+}
+#calculate {
+    position: absolute;
+    top: 150px;
+    left: 22px;
+    height: 28px;
+    width: 116px;
+    background: url("imgs/calculate.png");
+    cursor: pointer;
+    color: white;
+}
+#reset {
+    position: absolute;
+    top: 150px;
+    left: 138px;
+    height: 28px;
+    width: 116px;
+    background: url("imgs/reset.png");
+    cursor: pointer;
+    color: white;
 }
 .form-left.copy-form h2 {
     margin: 28px 25px 17px 25px;
@@ -395,8 +493,10 @@ div.wpcf7-validation-errors {
     width: 475px;
 }
 .calc-wrap {
+    position: relative;
     float: left;
-    padding: 1px;
+    width: 270px;
+    padding: 38px 0 0 7px;
 }
 .she-points {
     float: left;
@@ -405,6 +505,7 @@ div.wpcf7-validation-errors {
     height: 192px;
     margin-left: 25px;
     padding: 25px 0 0 60px;
+    display: none;
 
 }
 .she-points h3 {
@@ -415,6 +516,13 @@ div.wpcf7-validation-errors {
 .she-points p {
     font-family: 'Helvetica Neue Light Condensed','Helvetica', sans-serif;
     font-size: 13px;
-    line-height: 20px:w
-;
+    line-height: 20px;
+}
+.display-last-p {
+    width: 400px;
+}
+.yellow-block {
+    background: #fffdcb;
+    padding: 3px 25px;
+    margin-top: 15px;
 }

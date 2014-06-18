@@ -29,29 +29,90 @@
     <div class="calc-icon"></div>
 </header>
 
-<div class="mc-wrap whitey">
+<div class="mc-wrap copy-whitey">
 
     <div class="gray-bar-top"></div>
 
     <div class="mc-calc">
+        <form name="copy-calculator">
         <div class="calc-list">
-            <ul>
-                <li class=""><input type="checkbox" value=""></li>
+            <h3>Check words used in your campaigns then hit calculate</h3>
+            <ul id="calc-ul-one">
+                <li><input class="mc-checkbox pos" type="checkbox" value="Free" data="">Free</li>
+                <li><input class="mc-checkbox pos" type="checkbox" value="Understand" data="">Understand</li>
+                <li><input class="mc-checkbox pos" type="checkbox" value="Proven" data="">Proven</li>
+                <li><input class="mc-checkbox pos" type="checkbox" value="Health" data="">Health</li>
+                <li><input class="mc-checkbox pos" type="checkbox" value="Easy" data="">Easy</li>
+                <li><input class="mc-checkbox pos" type="checkbox" value="Guarantee" data="">Guarantee</li>
+                <li><input class="mc-checkbox pos" type="checkbox" value="Complimentary" data="">Complimentary</li>
+                <li><input class="mc-checkbox pos" type="checkbox" value="Money" data="">Money</li>
+                <li><input class="mc-checkbox pos" type="checkbox" value="Safety" data="">Safety</li>
+                <li><input class="mc-checkbox pos" type="checkbox" value="Save" data="">Save</li>
+                <li><input class="mc-checkbox pos" type="checkbox" value="New" data="">New</li>
+            </ul>
+            <ul id="calc-ul-two">
+                <li><input class="mc-checkbox pos" type="checkbox">Love</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Discover</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Right</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Results</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Truth</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Comfort</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Proud</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Profit</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Deserve</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Happy</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Trust</li>
+            </ul>
+
+            <ul id="calc-ul-three">
+                <li><input class="mc-checkbox pos" type="checkbox">Value</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Fun</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Vital</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Approve</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Cost</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Pay</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Contract</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Sign</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Try</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Worry</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Loss</li>
+            </ul>
+
+            <ul id="calc-ul-four">
+                <li><input class="mc-checkbox neg" type="checkbox">Lose</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Hurt</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Buy</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Must</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Death</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Bad</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Sell</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Sold</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Price</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Decision</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Hard</li>
             </ul>
 
         </div>
         <div class="calc-wrap">
-        <img src="../wp-content/themes/hpdm/strategy/imgs/calc-background.png">
+            <div class="mc-calc-back">
+                <div class="mc-calc-window">
+                    <span id="mc-display-pos">00.00%</span>
+                    <span id="mc-display-neg">00.00%</span>
+                </div>
+            </div>
+            <button id="calculate">CALCULATE</button>
+            <button id="reset">RESET</button>
+        </form>
         </div>
 
 
     </div>
     <div class="she-points">
         <h3 class="red-point">Here's What the HPDM Copy Calculator Says About Your Words</h3>
-        <p>Of the <span>{blank}</span> words you said were in your direct mail copy,<br>
-        <span>{blank}</span> were effective words to use but<span>{blank}</span> were not so effective.</p>
-        <p>With<span>{blank}</span>% of your choices being effective, HPDM can likely<br>
-        help you improve response rates through enhanced copy choices.</p>
+        <p>Of the <span id="display-total-words">__________</span> words you said were in your direct mail copy,<br>
+        <span id="display-total-pos">__________</span> were effective words to use but <span id="display-total-neg">__________</span> were not so effective.</p>
+        <p class="display-last-p">With <span id="display-total-percent">__________</span>% of your choices being effective,<span id="display-help"> HPDM can likely<br>
+        help you improve response rates through enhanced copy choices.</span></p>
     </div>
     <div class="gray-bar"></div>
 
@@ -158,6 +219,59 @@
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
+    jQuery(function($){
+
+        $('#calculate').on('click', function(){
+            if ($('.mc-checkbox:checked').length > 0){
+                var totalChecked = $('.mc-checkbox:checked').length;
+                var totalPos = $('.pos:checked').length;
+                var totalNeg = $('.neg:checked').length;
+                var posPercent = ((totalPos / totalChecked) * 100).toFixed(2);
+                var negPercent = (100 - posPercent).toFixed(2);
+                console.log(totalChecked, totalPos, totalNeg, posPercent, negPercent);
+            $('#display-total-words').html(totalChecked);
+            $('#display-total-pos').html(totalPos);
+            $('#display-total-neg').html(totalNeg);
+            $('#display-total-percent').html(posPercent);
+                if (posPercent < 69.99){
+                    $('.mc-calc-window').removeClass('override-caution');
+                    $('.mc-calc-window').addClass('override-negative');
+                }
+                if (posPercent < 79.99 && posPercent > 69.99){
+                    $('.mc-calc-window').removeClass('override-negative');
+                    $('.mc-calc-window').addClass('override-caution');
+
+                }if (posPercent >79.99){
+                     $('#display-help').html(" it appears that you're likely making good copy  choices.");
+                    $('.mc-calc-window').removeClass('override-caution','override-negative');
+                }
+            $('#mc-display-pos').html(posPercent + '%');
+            $('#mc-display-neg').html(negPercent + '%');
+
+
+
+                $('.she-points').show('slow')
+                    return false;
+            }
+
+            })
+        $('#reset').on('click', function(){
+
+            $('#mc-display-pos').html('00.00%');
+            $('#mc-display-neg').html('00.00%');
+            $('.mc-calc-window').removeClass('override-caution override-negative');
+            $('#display-help').html(" HPDM can likely help you improve response rates through enhanced copy choices.");
+            $('.mc-checkbox').prop('checked', false);
+            $('.she-points').hide('slow');
+            return false;
+        });
+
+
+
+
+
+
+    });
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
         function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
         e=o.createElement(i);r=o.getElementsByTagName(i)[0];

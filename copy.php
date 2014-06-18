@@ -26,7 +26,7 @@
     </nav>
     <div class="calc-icon"></div>
 </header>
-<div class="mc-wrap copy-whitey">
+<div class="mc-wrap mc-whitey">
     <section class="form-tout">
         <div class="form-left copy-form">
             <h2>Try The <span class="form-bold">Copy </span> Calcualtor Now <br>
