@@ -22,7 +22,7 @@
 <body>
 <header class="mc-wrap">
     <nav>
-        <h1 class="head-logo"><a href="http://highperformancedm.com/">High Performance Direct Marketing</a> </h1>
+        <h1 class="head-logo"><a href="http://highperformancedm.com/" target="_blank">High Performance Direct Marketing</a> </h1>
     </nav>
     <div class="calc-icon"></div>
 </header>
@@ -62,7 +62,7 @@
     <footer>
         <div class="footer-left">
             <div class="logo-wrap">
-                <a class="footer-logo" href="http://highperformancedm.com/"><img src="../wp-content/themes/hpdm/strategy/imgs/footer-logo.png"></a>
+                <a class="footer-logo" href="http://highperformancedm.com/" target="_blank"><img src="../wp-content/themes/hpdm/strategy/imgs/footer-logo.png"></a>
             </div>
             <span class="footer-address">High Performance Direct Marketing</span><br>
             <address class="footer-address">11232 120th Ave. NE, Suite 200, Kirkland, Wa 98033</address>

@@ -24,7 +24,7 @@
 <body>
 <header class="mc-wrap">
     <nav>
-        <h1 class="head-logo"><a href="http://highperformancedm.com/">High Performance Direct Marketing</a> </h1>
+        <h1 class="head-logo"><a href="http://highperformancedm.com/" target="_blank">High Performance Direct Marketing</a> </h1>
     </nav>
     <div class="calc-icon"></div>
 </header>
@@ -118,8 +118,8 @@
 
     <aside class="response-bottom-left">
         <img src="../wp-content/themes/hpdm/strategy/imgs/bob.png">
-        <span>Bob Hacker</span>
-        <span>HPDM Chief Strategist Legendary</span>
+        <span class="aside-title">Bob Hacker</span><br>
+        <span>HPDM Chief Strategist Legendary</span><br>
         <span>DM Marketer & Harvard MBA</span>
         <p>
             Since 1986, Bob Hacker has specialized in new customer acquisition and built one of the most successful direct marketing agencies on the planet.  Bob sold his agency and retired in 2002, but is now helping large mail marketers by acting as Chief Strategist for a direct marketing services organization (High Performance Direct Marketing). Bob served on the editorial board of Target Marketing magazine and was a frequent writer and speaker on direct marketing issues.  He is a graduate of The Harvard Business School and the University of Washington. What follows is an excerpt  from his book showing just one of his many formulas for rational planning of direct mail marketing campaigns.
@@ -201,7 +201,7 @@
     <footer>
         <div class="footer-left">
             <div class="logo-wrap">
-                <a class="footer-logo" href="http://highperformancedm.com/"><img src="../wp-content/themes/hpdm/strategy/imgs/footer-logo.png"></a>
+                <a class="footer-logo" href="http://highperformancedm.com/" target="_blank"><img src="../wp-content/themes/hpdm/strategy/imgs/footer-logo.png"></a>
             </div>
             <span class="footer-address">High Performance Direct Marketing</span><br>
             <address class="footer-address">11232 120th Ave. NE, Suite 200, Kirkland, Wa 98033</address>
