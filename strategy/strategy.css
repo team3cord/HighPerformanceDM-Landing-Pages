@@ -291,13 +291,17 @@ nav h1 {
     font-family: 'Helvetica Neue Light Bold Condensed',"Helvetica",sans-serif!important;
     font-size: 15px!important;
 }
-.response-top-left ul {
-    padding-left: 0;
+.check-div {
+    float: left;
 }
-.response-top-left li {
-    list-style: none;
-    font-family: 'Helvetica Neue Light Condensed',"Helvetica",sans-serif;
-    font-size: 12px;
+.check-div img {
+    float: left;
+}
+.checkmark {
+    float: left;
+    width: 88%;
+    margin: 0;
+    padding-bottom: 17px;
 }
 
 .pdf-holder {

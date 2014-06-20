@@ -33,32 +33,32 @@
 
     <div class="gray-bar-top"></div>
     <aside class="response-top-left">
-        <p class="red-top">This ControlBEATER test<br>
+        <p class="red-top">This ControlBEATER test
             recommendation was written
             for a major insurance mailer
             who’s program response
             rates were in serious
             decline.</p>
-        <p>What you're about to read is the<br>
-            actual recommendation written and<br>
-            presented by one of the world's<br>
+        <p>What you're about to read is the
+            actual recommendation written and
+            presented by one of the world's
             formost DM strategists, Bob Hacker.
         </p>
-        <p>Client specifics have been removed<br>
+        <p>Client specifics have been removed
         for obvious reason.</p>
-        <p>This mail test accomplished the<br>
+        <p>This mail test accomplished the
             following:
         </p>
-        <ul>
-            <li>&#x2713; HPDM's ControlBeater<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;Execution beat the mail<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;control by 62%.</li>
-            <li>&#x2713;HPDM tested 6 mail packages<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;and won 5 of 6 times; 3 tests<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;doubled response.</li>
-            <li>&#x2713;Annual net revenue is projected<br>
-            &nbsp;&nbsp;&nbsp;&nbsp;to increase over $9 million.</li>
-        </ul>
+
+            <div class="check-div"> <img src="../wp-content/themes/hpdm/strategy/imgs/checkmark.png"><p class="checkmark"> HPDM's ControlBeater
+            Execution beat the mail
+            control by 62%.</p></div>
+            <div class="check-div"><img src="../wp-content/themes/hpdm/strategy/imgs/checkmark.png"><p class="checkmark">HPDM tested 6 mail packages
+            and won 5 of 6 times; 3 tests
+            doubled response.</p></div>
+            <div class="check-div"><img src="../wp-content/themes/hpdm/strategy/imgs/checkmark.png"><p class="checkmark">Annual net revenue is projected
+            to increase over $9 million.</p>
+
 
     </aside>
     <div class="pdf-holder">
