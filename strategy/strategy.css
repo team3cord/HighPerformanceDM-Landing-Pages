@@ -561,3 +561,19 @@ div.wpcf7-validation-errors {
     padding: 3px 25px;
     margin-top: 15px;
 }
+.concept-icon {
+     background: url("imgs/concept-icon.png");
+     float: right;
+     height: 81px;
+     width: 171px; ;
+ }
+.concept-form-right {
+    float: left;
+    background: url("imgs/concept-form-tout.png");
+    height: 305px;
+    width: 475px;
+}
+.form-left.concept-form h2 {
+    margin: 28px 25px 17px 37px;
+    font-size: 20px;
+}
