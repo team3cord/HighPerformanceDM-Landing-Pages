@@ -50,9 +50,7 @@
             following:
         </p>
 
-            <div class="check-div"> <img src="../wp-content/themes/hpdm/strategy/imgs/checkmark.png"><p class="checkmark"> HPDM's ControlBeater
-            Execution beat the mail
-            control by 62%.</p></div>
+            <div class="check-div"> <img src="../wp-content/themes/hpdm/strategy/imgs/checkmark.png"><p class="checkmark"> HPDM's ControlBeater Execution program performance by 62%</p></div>
             <div class="check-div"><img src="../wp-content/themes/hpdm/strategy/imgs/checkmark.png"><p class="checkmark">HPDM tested 6 mail packages
             and won 5 of 6 times; 3 tests
             doubled response.</p></div>
@@ -76,9 +74,10 @@
         <span>HPDM Chief Strategist Legendary</span><br>
         <span>DM Marketer & Harvard MBA</span>
         <p>
-            Since 1986, Bob Hacker has specialized in new customer acquisition and built one of the most successful direct marketing agencies on the planet.  Bob sold his agency and retired in 2002, but is now helping large mail marketers by acting as Chief Strategist for a direct marketing services organization (High Performance Direct Marketing). Bob served on the editorial board of Target Marketing magazine and was a frequent writer and speaker on direct marketing issues.  He is a graduate of The Harvard Business School and the University of Washington. What follows is an excerpt  from his book showing just one of his many formulas for rational planning of direct mail marketing campaigns.
+            Since 1986, Bob Hacker has specialized in new customer acquisition and built one of the most successful direct marketing agencies on the planet.  Bob sold his agency and retired in 2002, but is now helping large mail marketers by acting as Chief Strategist for a direct marketing services organization (High Performance Direct Marketing). Bob served on the editorial board of Target Marketing magazine and was a frequent writer and speaker on direct marketing issues.  He is a graduate of The Harvard Business School and the University of Washington.
         </p>
         <img src="../wp-content/themes/hpdm/strategy/imgs/dont-forget.png">
+        <p style="font-size: 11px; text-align:center;width: 137px;padding-left:10px;">Don't forget to download a copy of the winning Control<span style="font-weight: bold;">Beater&#153;</span> Test Recommendation</p>
         <a class="download-btn" href="http://hpdm.crosshatchcreative.com/wp-content/uploads/2014/06/hpdm-rec.pdf" target="_blank">Download</a>
     </aside>
 

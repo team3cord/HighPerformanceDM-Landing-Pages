@@ -342,7 +342,6 @@ nav h1 {
 .response-bottom-left p {
     font-family: 'Helvetica Neue Light Condensed',"Helvetica",sans-serif;
     font-size: 12px;
-    text-align: justify;
 }
 span.aside-title {
     font-family: "Helvetica Neue Light Bold Condensed","Helvetica",sans-serif;
@@ -431,7 +430,7 @@ div.wpcf7-validation-errors {
     float: left;
     width: 420px;
     height: 310px;
-    padding: 25px 0 0 35px;
+    padding: 23px 0 0 35px;
 }
 .calc-list h3 {
     color: #d01f2e;
@@ -532,7 +531,7 @@ div.wpcf7-validation-errors {
     position: relative;
     float: left;
     width: 270px;
-    padding: 38px 0 0 7px;
+    padding: 37px 0 0 7px;
 }
 .she-points {
     float: left;

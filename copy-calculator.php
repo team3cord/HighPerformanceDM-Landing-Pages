@@ -38,30 +38,30 @@
         <div class="calc-list">
             <h3>Check words used in your campaigns then hit calculate</h3>
             <ul id="calc-ul-one">
-                <li><input class="mc-checkbox pos" type="checkbox" value="Free" data="">Free</li>
-                <li><input class="mc-checkbox pos" type="checkbox" value="Understand" data="">Understand</li>
-                <li><input class="mc-checkbox pos" type="checkbox" value="Proven" data="">Proven</li>
-                <li><input class="mc-checkbox pos" type="checkbox" value="Health" data="">Health</li>
-                <li><input class="mc-checkbox pos" type="checkbox" value="Easy" data="">Easy</li>
-                <li><input class="mc-checkbox pos" type="checkbox" value="Guarantee" data="">Guarantee</li>
-                <li><input class="mc-checkbox pos" type="checkbox" value="Complimentary" data="">Complimentary</li>
-                <li><input class="mc-checkbox pos" type="checkbox" value="Money" data="">Money</li>
-                <li><input class="mc-checkbox pos" type="checkbox" value="Safety" data="">Safety</li>
-                <li><input class="mc-checkbox pos" type="checkbox" value="Save" data="">Save</li>
-                <li><input class="mc-checkbox pos" type="checkbox" value="New" data="">New</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Free</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Understand</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Death</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Proven</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Sell</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Pay</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Health</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Try</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Safety</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Must</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Obligation</li>
             </ul>
             <ul id="calc-ul-two">
                 <li><input class="mc-checkbox pos" type="checkbox">Love</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Complimentary</li>
                 <li><input class="mc-checkbox pos" type="checkbox">Discover</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Hurt</li>
                 <li><input class="mc-checkbox pos" type="checkbox">Right</li>
-                <li><input class="mc-checkbox pos" type="checkbox">Results</li>
-                <li><input class="mc-checkbox pos" type="checkbox">Truth</li>
-                <li><input class="mc-checkbox pos" type="checkbox">Comfort</li>
-                <li><input class="mc-checkbox pos" type="checkbox">Proud</li>
                 <li><input class="mc-checkbox pos" type="checkbox">Profit</li>
-                <li><input class="mc-checkbox pos" type="checkbox">Deserve</li>
                 <li><input class="mc-checkbox pos" type="checkbox">Happy</li>
-                <li><input class="mc-checkbox pos" type="checkbox">Trust</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Failure</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Difficult</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Save</li>
+                <li><input class="mc-checkbox pos" type="checkbox">New</li>
             </ul>
 
             <ul id="calc-ul-three">
@@ -70,24 +70,24 @@
                 <li><input class="mc-checkbox pos" type="checkbox">Vital</li>
                 <li><input class="mc-checkbox pos" type="checkbox">Approve</li>
                 <li><input class="mc-checkbox neg" type="checkbox">Cost</li>
-                <li><input class="mc-checkbox neg" type="checkbox">Pay</li>
                 <li><input class="mc-checkbox neg" type="checkbox">Contract</li>
                 <li><input class="mc-checkbox neg" type="checkbox">Sign</li>
-                <li><input class="mc-checkbox neg" type="checkbox">Try</li>
                 <li><input class="mc-checkbox neg" type="checkbox">Worry</li>
                 <li><input class="mc-checkbox neg" type="checkbox">Loss</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Money</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Truth</li>
             </ul>
 
             <ul id="calc-ul-four">
                 <li><input class="mc-checkbox neg" type="checkbox">Lose</li>
-                <li><input class="mc-checkbox neg" type="checkbox">Hurt</li>
+                <li><input class="mc-checkbox neg" type="checkbox">Liability</li>
                 <li><input class="mc-checkbox neg" type="checkbox">Buy</li>
-                <li><input class="mc-checkbox neg" type="checkbox">Must</li>
-                <li><input class="mc-checkbox neg" type="checkbox">Death</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Trust</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Easy</li>
                 <li><input class="mc-checkbox neg" type="checkbox">Bad</li>
-                <li><input class="mc-checkbox neg" type="checkbox">Sell</li>
                 <li><input class="mc-checkbox neg" type="checkbox">Sold</li>
                 <li><input class="mc-checkbox neg" type="checkbox">Price</li>
+                <li><input class="mc-checkbox pos" type="checkbox">Guarantee</li>
                 <li><input class="mc-checkbox neg" type="checkbox">Decision</li>
                 <li><input class="mc-checkbox neg" type="checkbox">Hard</li>
             </ul>
