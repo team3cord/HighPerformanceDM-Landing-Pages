@@ -821,19 +821,20 @@ div.wpcf7-validation-errors {
     width: 9px;
     height: 8px;
     margin-top: 1px;
+    margin-left:0px;
     background: #ffffff;
 }
 a.up-btn {
-    float: left;
-    width: 10px;
-    height: 8px;
-    border: 1px solid #000000;
-    background: url("imgs/left-btn.png") no-repeat;
-}
-a.dwn-btn {
     float: right;
     width: 10px;
     height: 8px;
     border: 1px solid #000000;
     background: url("imgs/right-btn.png") no-repeat;
+}
+a.dwn-btn {
+    float: left;
+    width: 10px;
+    height: 8px;
+    border: 1px solid #000000;
+    background: url("imgs/left-btn.png") no-repeat;
 }
