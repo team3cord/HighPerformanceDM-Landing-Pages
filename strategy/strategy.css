@@ -52,6 +52,7 @@
 
 body {
     background: #f6f6f7;
+    margin: 0;
 }
 .mc-wrap {
     width: 745px;
@@ -330,7 +331,7 @@ nav h1 {
 
 .response-bottom-left {
     float: left;
-    width: 165px;
+    width: 153px;
     padding: 12px 25px 50px 25px;
 }
 
@@ -576,4 +577,263 @@ div.wpcf7-validation-errors {
 .form-left.concept-form h2 {
     margin: 28px 25px 17px 37px;
     font-size: 20px;
+}
+.concept-cal {
+    width:670px;
+    margin: 0 auto;
+    padding: 0;
+}
+.calc-header {
+    margin: 0;
+    padding: 40px 0 30px 0;
+    font-family:"Helvetica Neue Light Roman","Helvetica",sans-serif;
+    font-size: 20px;
+}
+.calc-header span {
+    color: #d01f2e;
+}
+.calc-directions {
+    float: left;
+    width: 180px;
+    height: 375px;
+    background: #ffffff;
+}
+.dir-heading {
+    color: #d01f2e;
+    font-family: 'Helvetica Neue Light Bold Condensed','Helvetica', sans-serif;
+    font-size: 14px;
+}
+.calc-directions ol {
+    padding-left: 14px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.calc-directions ul {
+    list-style: none;
+    padding-left: 14px;
+    margin-top: 6px;
+}
+.calc-directions li {
+    font-family: 'Helvetica Neue Light Bold Condensed','Helvetica', sans-serif;
+    font-size: 12px;
+}
+.calc-directions ol li {
+    padding-bottom: 10px;
+}
+.calc-directions ul li {
+    padding-bottom: 5px;
+}
+.cal-js {
+    float: left;
+    width: 485px;
+    height: 310px;
+}
+.concept-infographic {
+    float: right;
+    padding-left: 13px;
+    padding-bottom: 8px;
+}
+.concept-copy-holder {
+    float: left;
+    width: 515px;
+    padding: 0px 0px 50px 0px;
+}
+.concept-copy-holder .top-red {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 21px;
+}
+.concept-copy-holder span , .concept-copy-holder p , .concept-copy-holder li {
+    font-family:"Helvetica Neue Light Roman","Helvetica",sans-serif;
+    font-size: 12px;
+}
+.concept-copy-holder ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.concept-copy-holder li {
+    background: url("imgs/list-dots.png") no-repeat ;
+    padding-left: 10px;
+}
+/* CONCERT CALCULATOR STYLE */
+.cal-js li , .cal-js a , .cal-js span {
+    font-family: 'Helvetica Neue Light Bold Condensed','Helvetica', sans-serif;
+    font-size: 11px;
+    color: #ffffff;
+}
+.top-cell {
+    height: 23px;
+    border: 1px solid #000000;
+    border-bottom: none;
+    padding: 5px 10px;
+}
+.top-sub-cell {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 7px;
+}
+.allowable {
+    text-align: center;
+    float: left;
+    width: 120px;
+    height: 20px;
+    border: 1px solid #000000;
+}
+.allowable span {
+    vertical-align: middle;
+    font-size: 6px;
+    color: #000000;
+}
+.allowable-range , .mail-quality-range {
+    position: relative;
+    float: left;
+    width: 68px;
+    height: 20px;
+    background: #000000;
+    border: 1px solid #000000;
+}
+.allowable-range span , .mail-quality-range span {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    color: #ffffff;
+    font-size: 5px;
+}
+.mail-quality {
+    text-align: center;
+    float: left;
+    width: 68px;
+    height: 20px;
+    font-size: 6px;
+    border: 1px solid #000000;
+}
+.mail-quality span {
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 6px;
+    color: #000000;
+}
+#mc-reset {
+    display: inline-block;
+    float: right;
+    width: 50px;
+    height: 7px;
+    text-align: center;
+    padding-top: 3px;
+    text-decoration: none;
+    font-size: 5px;
+    border: 1px solid #000000;
+    color: #000000;
+    background: #cbcbcb;
+}
+.cal-body {
+    clear: both;
+    margin: 0;
+    padding:0 15px;
+    background: #d9d9d9;
+    height: 275px;
+    border: 1px solid #000000;
+}
+.prog-row {
+    height: 15px;
+}
+.prog-row ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.prog-row li {
+    display: inline-block;
+    width: 68px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: underline;
+    color: #000000;
+    font-size: 6px;
+}
+.prog-row li:first-of-type , .prog-row li:last-of-type {
+    width: 55px;
+}
+.concept-a {
+    float: left;
+    width: 450px;
+    height: 20px;
+    border: 1px solid black;
+    background: #e26b09;
+}
+.mc-cell {
+    float: left;
+    display: inline-block;
+    width: 67px;
+    height: 20px;
+    border-right: 1px solid #ffffff;
+}
+.sub-cell {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 6px;
+    border-bottom: 1px solid #ffffff;
+}
+.sub-cell span {
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    font-size: 5px !important;
+    padding: 0;
+    color: #ffffff;
+}
+.first-cell {
+    float: left;
+    display: inline-block;
+    width: 54px;
+    height: 20px;
+    text-align: center;
+    border-right: 1px solid #ffffff;
+}
+.first-cell span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 5px;
+}
+.total-cell {
+    float: left;
+    display: inline-block;
+    width: 54px;
+    height: 20px;
+    text-align: center;
+}
+.total-cell span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 5px;
+}
+.mc-range {
+    clear: both;
+    width: 58px;
+    height: 10px;
+    margin-top: 1px;
+    background: #000000;
+}
+.mc-marker {
+    float: left;
+    width: 9px;
+    height: 8px;
+    margin-top: 1px;
+    background: #ffffff;
+}
+a.up-btn {
+    float: left;
+    width: 10px;
+    height: 8px;
+    border: 1px solid #000000;
+    background: url("imgs/left-btn.png") no-repeat;
+}
+a.dwn-btn {
+    float: right;
+    width: 10px;
+    height: 8px;
+    border: 1px solid #000000;
+    background: url("imgs/right-btn.png") no-repeat;
 }
