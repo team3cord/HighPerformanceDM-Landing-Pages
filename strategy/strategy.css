@@ -762,6 +762,39 @@ div.wpcf7-validation-errors {
     border: 1px solid black;
     background: #e26b09;
 }
+.concept-b {
+    float: left;
+    width: 450px;
+    height: 20px;
+    border: 1px solid black;
+    margin-top: 5px;
+    background: #31869b;
+}
+.concept-c {
+    float: left;
+    width: 450px;
+    height: 20px;
+    border: 1px solid black;
+    margin-top: 5px;
+    background: #60497a;
+}
+.concept-d {
+    float: left;
+    width: 450px;
+    height: 20px;
+    border: 1px solid black;
+    margin-top: 5px;
+    background: #76933b;
+}
+.concept-e {
+    float: left;
+    width: 450px;
+    height: 20px;
+    border: 1px solid black;
+    margin-top: 5px;
+    background: #963633;
+}
+
 .mc-cell {
     float: left;
     display: inline-block;
