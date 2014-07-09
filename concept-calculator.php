@@ -158,7 +158,7 @@
                             </div>
 
                             <div class="a-total-cell total-cell">
-                                <span class="money-span">$&nbsp;</span><span class="a-total-sum reset-this">0</span>
+                                <span class="money-span">$&nbsp;</span><span class="a-total-sum reset-this">0.00</span>
                             </div>
                     </div>
 
@@ -224,7 +224,7 @@
                             </div>
 
                             <div class="b-total-cell total-cell">
-                                <span class="money-span">$&nbsp;</span><span class="b-total-sum reset-this">0</span>
+                                <span class="money-span">$&nbsp;</span><span class="b-total-sum reset-this">0.00</span>
                             </div>
                     </div>
 
@@ -290,7 +290,7 @@
                             </div>
 
                             <div class="c-total-cell total-cell">
-                                <span class="money-span">$&nbsp;</span><span class="c-total-sum reset-this">0</span>
+                                <span class="money-span">$&nbsp;</span><span class="c-total-sum reset-this">0.00</span>
                             </div>
                     </div>
 
@@ -356,7 +356,7 @@
                             </div>
 
                             <div class="d-total-cell total-cell">
-                                <span class="money-span">$&nbsp;</span><span class="d-total-sum reset-this">0</span>
+                                <span class="money-span">$&nbsp;</span><span class="d-total-sum reset-this">0.00</span>
                             </div>
                     </div>
                     <div class="concept-e">
@@ -421,7 +421,7 @@
                             </div>
 
                             <div class="e-total-cell total-cell">
-                                <span class="money-span">$&nbsp;</span><span class="e-total-sum reset-this">0</span>
+                                <span class="money-span">$&nbsp;</span><span class="e-total-sum reset-this">0.00</span>
                             </div>
                     </div>
                     <div class="chart-body">
@@ -708,24 +708,22 @@ jQuery(document).ready(function($){
 
         $('.a-sum').on('click',function(e){
           var mailQuantity = parseFloat($('.mail-range-total').text());
-            console.log(mailQuantity);
           var aCreativeAmount = parseFloat($('.a-creative-range-total').text());
-            console.log(aCreativeAmount);
           var aPrintAmount = parseFloat($('.a-print-range-total').text());
-            console.log(aPrintAmount);
           var aPostageAmount = parseFloat($('.a-postage-range-total').text());
-            console.log(aPostageAmount);
           var aListAmount = parseFloat($('.a-list-range-total').text());
           var aOtherAmount = parseFloat($('.a-other-range-total').text());
           var aPrintProccessed = aPrintAmount * (mailQuantity / 1000);
-            console.log(aPrintProccessed);
           var aPostageProccessed = (aPostageAmount * mailQuantity);
-            console.log(aPostageProccessed);
           var aListProccessed = aListAmount * (mailQuantity/ 1000);
-          var aSumTotal = (aCreativeAmount + aPrintProccessed + aPostageProccessed + aListProccessed + aOtherAmount);
+          var aSumTotal = ((aCreativeAmount + aPrintProccessed + aPostageProccessed + aListProccessed + aOtherAmount).toFixed(2));
           $('.a-total-sum').text(aSumTotal);
+          var aCostPer = parseFloat($('.allowable-range-total').text());
+          if (aSumTotal > 0) {
+          var aResponseNeeded = ((aSumTotal / aCostPer).toFixed(2));
+          alert(aResponseNeeded);
+          }
         });
-
     $('#b-creative-up').on('click',function(e){
         e.preventDefault();
         var bCreativeRangeTotal = $('.b-creative-range-total');
@@ -852,16 +850,16 @@ jQuery(document).ready(function($){
     });
 
     $('.b-sum').on('click',function(e){
-        var bmailQuantity = parseInt($('.mail-range-total').text());
-        var bCreativeAmount = parseInt($('.b-creative-range-total').text());
-        var bPrintAmount = parseInt($('.b-print-range-total').text());
-        var bPostageAmount = parseInt($('.b-postage-range-total').text());
-        var bListAmount = parseInt($('.b-list-range-total').text());
-        var bOtherAmount = parseInt($('.b-other-range-total').text());
+        var bmailQuantity = parseFloat($('.mail-range-total').text());
+        var bCreativeAmount = parseFloat($('.b-creative-range-total').text());
+        var bPrintAmount = parseFloat($('.b-print-range-total').text());
+        var bPostageAmount = parseFloat($('.b-postage-range-total').text());
+        var bListAmount = parseFloat($('.b-list-range-total').text());
+        var bOtherAmount = parseFloat($('.b-other-range-total').text());
         var bPrintProccessed = bPrintAmount * (bmailQuantity / 1000);
         var bPostageProccessed = bPostageAmount * bmailQuantity;
         var bListProccessed = bListAmount * (bmailQuantity/ 1000);
-        var bSumTotal = bCreativeAmount + bPrintProccessed + bPostageProccessed + bListProccessed + bOtherAmount;
+        var bSumTotal = ((bCreativeAmount + bPrintProccessed + bPostageProccessed + bListProccessed + bOtherAmount).toFixed(2));
         $('.b-total-sum').text(bSumTotal);
     });
 
@@ -993,16 +991,16 @@ jQuery(document).ready(function($){
     });
 
     $('.c-sum').on('click',function(e){
-        var cmailQuantity = parseInt($('.mail-range-total').text());
-        var cCreativeAmount = parseInt($('.c-creative-range-total').text());
-        var cPrintAmount = parseInt($('.c-print-range-total').text());
-        var cPostageAmount = parseInt($('.c-postage-range-total').text());
-        var cListAmount = parseInt($('.c-list-range-total').text());
-        var cOtherAmount = parseInt($('.c-other-range-total').text());
+        var cmailQuantity = parseFloat($('.mail-range-total').text());
+        var cCreativeAmount = parseFloat($('.c-creative-range-total').text());
+        var cPrintAmount = parseFloat($('.c-print-range-total').text());
+        var cPostageAmount = parseFloat($('.c-postage-range-total').text());
+        var cListAmount = parseFloat($('.c-list-range-total').text());
+        var cOtherAmount = parseFloat($('.c-other-range-total').text());
         var cPrintProccessed = cPrintAmount * (cmailQuantity / 1000);
         var cPostageProccessed = cPostageAmount * cmailQuantity;
         var cListProccessed = cListAmount * (cmailQuantity/ 1000);
-        var cSumTotal = cCreativeAmount + cPrintProccessed + cPostageProccessed + cListProccessed + cOtherAmount;
+        var cSumTotal = ((cCreativeAmount + cPrintProccessed + cPostageProccessed + cListProccessed + cOtherAmount).toFixed(2));
         $('.c-total-sum').text(cSumTotal);
     });
     $('#d-creative-up').on('click',function(e){
@@ -1133,16 +1131,16 @@ jQuery(document).ready(function($){
     });
 
     $('.d-sum').on('click',function(e){
-        var dmailQuantity = parseInt($('.mail-range-total').text());
-        var dCreativeAmount = parseInt($('.d-creative-range-total').text());
-        var dPrintAmount = parseInt($('.d-print-range-total').text());
-        var dPostageAmount = parseInt($('.d-postage-range-total').text());
-        var dListAmount = parseInt($('.d-list-range-total').text());
-        var dOtherAmount = parseInt($('.d-other-range-total').text());
+        var dmailQuantity = parseFloat($('.mail-range-total').text());
+        var dCreativeAmount = parseFloat($('.d-creative-range-total').text());
+        var dPrintAmount = parseFloat($('.d-print-range-total').text());
+        var dPostageAmount = parseFloat($('.d-postage-range-total').text());
+        var dListAmount = parseFloat($('.d-list-range-total').text());
+        var dOtherAmount = parseFloat($('.d-other-range-total').text());
         var dPrintProccessed = dPrintAmount * (dmailQuantity / 1000);
         var dPostageProccessed = dPostageAmount * dmailQuantity;
         var dListProccessed = dListAmount * (dmailQuantity/ 1000);
-        var dSumTotal = dCreativeAmount + dPrintProccessed + dPostageProccessed + dListProccessed + dOtherAmount;
+        var dSumTotal = ((dCreativeAmount + dPrintProccessed + dPostageProccessed + dListProccessed + dOtherAmount).toFixed(2));
         $('.d-total-sum').text(dSumTotal);
     });
 
@@ -1272,18 +1270,19 @@ jQuery(document).ready(function($){
     });
 
     $('.e-sum').on('click',function(e){
-        var emailQuantity = parseInt($('.mail-range-total').text());
-        var eCreativeAmount = parseInt($('.e-creative-range-total').text());
-        var ePrintAmount = parseInt($('.e-print-range-total').text());
-        var ePostageAmount = parseInt($('.e-postage-range-total').text());
-        var eListAmount = parseInt($('.e-list-range-total').text());
-        var eOtherAmount = parseInt($('.e-other-range-total').text());
+        var emailQuantity = parseFloat($('.mail-range-total').text());
+        var eCreativeAmount = parseFloat($('.e-creative-range-total').text());
+        var ePrintAmount = parseFloat($('.e-print-range-total').text());
+        var ePostageAmount = parseFloat($('.e-postage-range-total').text());
+        var eListAmount = parseFloat($('.e-list-range-total').text());
+        var eOtherAmount = parseFloat($('.e-other-range-total').text());
         var ePrintProccessed = ePrintAmount * (emailQuantity / 1000);
         var ePostageProccessed = ePostageAmount * emailQuantity;
         var eListProccessed = eListAmount * (emailQuantity/ 1000);
-        var eSumTotal = eCreativeAmount + ePrintProccessed + ePostageProccessed + eListProccessed + eOtherAmount;
+        var eSumTotal = ((eCreativeAmount + ePrintProccessed + ePostageProccessed + eListProccessed + eOtherAmount).toFixed(2));
         $('.e-total-sum').text(eSumTotal);
     });
+
 
 
 });
