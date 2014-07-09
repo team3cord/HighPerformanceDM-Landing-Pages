@@ -655,6 +655,10 @@ div.wpcf7-validation-errors {
     background: url("imgs/list-dots.png") no-repeat ;
     padding-left: 10px;
 }
+.con-cal-whitey {
+    height: 1265px;
+    background: #ffffff;
+}
 /* CONCERT CALCULATOR STYLE */
 .cal-js li , .cal-js a , .cal-js span {
     font-family: 'Helvetica Neue Light Bold Condensed','Helvetica', sans-serif;
@@ -693,10 +697,9 @@ div.wpcf7-validation-errors {
     background: #000000;
     border: 1px solid #000000;
 }
-.allowable-range span , .mail-quality-range span {
-    position: absolute;
-    top: 1px;
-    right: 5px;
+.allowable-range span , .mail-quality-range span , .sub-cell span {
+    float: right;
+    padding: 1px 5px 0 0;
     color: #ffffff;
     font-size: 5px;
 }
@@ -809,14 +812,6 @@ div.wpcf7-validation-errors {
     height: 6px;
     border-bottom: 1px solid #ffffff;
 }
-.sub-cell span {
-    position: absolute;
-    top: 1px;
-    right: 5px;
-    font-size: 5px !important;
-    padding: 0;
-    color: #ffffff;
-}
 .first-cell {
     float: left;
     display: inline-block;
@@ -870,4 +865,106 @@ a.dwn-btn {
     height: 8px;
     border: 1px solid #000000;
     background: url("imgs/left-btn.png") no-repeat;
+}
+.chart-body {
+    float: left;
+    position: relative;
+    width: 452px;
+    height: 120px;
+    margin-top: 5px;
+    background: #000000;
+}
+.head-main-span {
+    display: block;
+    text-align: center;
+    font-size: 9px!important;
+    color: #ffffff;
+    padding: 0;
+    margin: 3px 0 0 1%;
+}
+.head-span {
+    display: block;
+    margin: 0 0 0 38%;
+}
+.chart-body span {
+    font-size: 7px;
+}
+.chart-background{
+    float: left;
+    width: 325px;
+    height: 55px;
+    margin: 3px 0 0 95px;
+    background: #b6b6b6;
+}
+.col-con-a {
+    width: 35px;
+    height: 12px;
+    position: absolute;
+    bottom:25px;
+    left: 80px;
+    background: #e26b09;
+    text-align: center;
+}
+.col-con-a {
+    position: absolute;
+    left: 80px;
+    bottom:
+}
+.col-con-b {
+    width: 35px;
+    height: 12px;
+    position: absolute;
+    bottom:25px;
+    left: 145px;
+    background: #31869b;
+    text-align: center;
+}
+.col-con-c {
+    width: 35px;
+    height: 12px;
+    position: absolute;
+    bottom:25px;
+    left: 210px;
+    background: #60497a;
+    text-align: center;
+}
+.col-con-d {
+    width: 35px;
+    height: 12px;
+    position: absolute;
+    bottom:25px;
+    left: 275px;
+    background: #76933b;
+    text-align: center;
+}
+.col-con-e {
+    width: 35px;
+    height: 12px;
+    position: absolute;
+    bottom:25px;
+    left: 340px;
+    background: #963633;
+    text-align: center;
+}
+span.percent {
+    margin-top: 1px;
+}
+.label-row {
+    width: 363px;
+    height: 100px;
+    padding-left: 40px;
+}
+.col-label ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.col-label li {
+    display: inline-block;
+    text-align: center;
+    font-size: 7px;
+    width: 35px;
+    margin: 20px 26px 0 0;
+    padding: 0;
 }

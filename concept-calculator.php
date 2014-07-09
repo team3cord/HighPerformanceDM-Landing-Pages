@@ -29,7 +29,7 @@
     <div class="win-icon"></div>
 </header>
 
-<div class="mc-wrap whitey">
+<div class="mc-wrap con-cal-whitey">
 
     <div class="gray-bar-top"></div>
     <div class="concept-cal">
@@ -59,7 +59,7 @@
                     </div>
                     <div class="allowable-range">
                         <div class="top-allowable-sub top-sub-cell">
-                            <span class="allowable-range-total reset-this">0</span>
+                            <span class="allowable-range-total reset-this">0</span><span class="money-span">$</span>
                         </div>
                         <div class="top-allowable-range mc-range">
                             <a id="top-allowable-dwn" class="dwn-btn a-sum" href="#"></a>
@@ -79,7 +79,7 @@
                         <div class="top-mail-range mc-range">
                             <a id="top-mail-dwn" class="dwn-btn a-sum" href="#"></a>
                             <div class="top-mail-marker mc-marker"></div>
-                            <a id="top-mail-up" class="up-btn a-sum" href="#"></a>
+                            <a id="top-mail-up" class="up-btn a-sum b-sum c-sum d-sum e-sum" href="#"></a>
                         </div>
                     </div>
                     <a id="mc-reset" href="#">Reset</a>
@@ -103,7 +103,7 @@
 
                             <div class="a-creative-cell mc-cell">
                                 <div class="a-creative-total sub-cell">
-                                    <span class="a-creative-range-total reset-this">0</span>
+                                    <span class="a-creative-range-total reset-this">0</span><span class="money-span">$</span>
                                 </div>
 
                                 <div class="a-creative-range mc-range">
@@ -115,7 +115,7 @@
 
                             <div class="a-print-cell mc-cell">
                                 <div class="a-print-total sub-cell">
-                                    <span class="a-print-range-total reset-this" >0</span>
+                                    <span class="a-print-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="a-print-range mc-range">
                                     <a id="a-print-dwn" class="dwn-btn a-sum" href="#"></a>
@@ -126,7 +126,7 @@
 
                             <div class="a-postage-cell mc-cell">
                                 <div class="a-postage-total sub-cell">
-                                    <span class="a-postage-range-total reset-this" >0</span>
+                                    <span class="a-postage-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="a-postage-range mc-range">
                                     <a id="a-postage-dwn" class="dwn-btn a-sum" href="#"></a>
@@ -137,7 +137,7 @@
 
                             <div class="a-list-cell mc-cell">
                                 <div class="a-list-total sub-cell">
-                                    <span class="a-list-range-total reset-this" >0</span>
+                                    <span class="a-list-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="a-list-range mc-range">
                                     <a id="a-list-dwn" class="dwn-btn a-sum" href="#"></a>
@@ -148,7 +148,7 @@
 
                             <div class="a-other-cell mc-cell">
                                 <div class="a-other-total sub-cell">
-                                    <span class="a-other-range-total reset-this" >0</span>
+                                    <span class="a-other-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="a-other-range mc-range">
                                     <a id="a-other-dwn" class="dwn-btn a-sum" href="#"></a>
@@ -158,7 +158,7 @@
                             </div>
 
                             <div class="a-total-cell total-cell">
-                                <span class="a-total-sum reset-this">0</span>
+                                <span class="money-span">$&nbsp;</span><span class="a-total-sum reset-this">0</span>
                             </div>
                     </div>
 
@@ -169,7 +169,7 @@
 
                             <div class="b-creative-cell mc-cell">
                                 <div class="b-creative-total sub-cell">
-                                    <span class="b-creative-range-total reset-this">0</span>
+                                    <span class="b-creative-range-total reset-this">0</span><span class="money-span">$</span>
                                 </div>
 
                                 <div class="b-creative-range mc-range">
@@ -181,7 +181,7 @@
 
                             <div class="b-print-cell mc-cell">
                                 <div class="b-print-total sub-cell">
-                                    <span class="b-print-range-total reset-this" >0</span>
+                                    <span class="b-print-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="b-print-range mc-range">
                                     <a id="b-print-dwn" class="dwn-btn b-sum" href="#"></a>
@@ -192,7 +192,7 @@
 
                             <div class="b-postage-cell mc-cell">
                                 <div class="b-postage-total sub-cell">
-                                    <span class="b-postage-range-total reset-this" >0</span>
+                                    <span class="b-postage-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="b-postage-range mc-range">
                                     <a id="b-postage-dwn" class="dwn-btn b-sum" href="#"></a>
@@ -203,7 +203,7 @@
 
                             <div class="b-list-cell mc-cell">
                                 <div class="b-list-total sub-cell">
-                                    <span class="b-list-range-total reset-this" >0</span>
+                                    <span class="b-list-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="b-list-range mc-range">
                                     <a id="b-list-dwn" class="dwn-btn b-sum" href="#"></a>
@@ -214,7 +214,7 @@
 
                             <div class="b-other-cell mc-cell">
                                 <div class="b-other-total sub-cell">
-                                    <span class="b-other-range-total reset-this" >0</span>
+                                    <span class="b-other-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="b-other-range mc-range">
                                     <a id="b-other-dwn" class="dwn-btn b-sum" href="#"></a>
@@ -224,7 +224,7 @@
                             </div>
 
                             <div class="b-total-cell total-cell">
-                                <span class="b-total-sum reset-this">0</span>
+                                <span class="money-span">$&nbsp;</span><span class="b-total-sum reset-this">0</span>
                             </div>
                     </div>
 
@@ -235,7 +235,7 @@
 
                             <div class="c-creative-cell mc-cell">
                                 <div class="c-creative-total sub-cell">
-                                    <span class="c-creative-range-total reset-this">0</span>
+                                    <span class="c-creative-range-total reset-this">0</span><span class="money-span">$</span>
                                 </div>
 
                                 <div class="c-creative-range mc-range">
@@ -247,7 +247,7 @@
 
                             <div class="c-print-cell mc-cell">
                                 <div class="c-print-total sub-cell">
-                                    <span class="c-print-range-total reset-this" >0</span>
+                                    <span class="c-print-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="c-print-range mc-range">
                                     <a id="c-print-dwn" class="dwn-btn c-sum" href="#"></a>
@@ -258,7 +258,7 @@
 
                             <div class="c-postage-cell mc-cell">
                                 <div class="c-postage-total sub-cell">
-                                    <span class="c-postage-range-total reset-this" >0</span>
+                                    <span class="c-postage-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="c-postage-range mc-range">
                                     <a id="c-postage-dwn" class="dwn-btn c-sum" href="#"></a>
@@ -269,7 +269,7 @@
 
                             <div class="c-list-cell mc-cell">
                                 <div class="c-list-total sub-cell">
-                                    <span class="c-list-range-total reset-this" >0</span>
+                                    <span class="c-list-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="c-list-range mc-range">
                                     <a id="c-list-dwn" class="dwn-btn c-sum" href="#"></a>
@@ -280,7 +280,7 @@
 
                             <div class="c-other-cell mc-cell">
                                 <div class="c-other-total sub-cell">
-                                    <span class="c-other-range-total reset-this" >0</span>
+                                    <span class="c-other-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="c-other-range mc-range">
                                     <a id="c-other-dwn" class="dwn-btn c-sum" href="#"></a>
@@ -290,7 +290,7 @@
                             </div>
 
                             <div class="c-total-cell total-cell">
-                                <span class="c-total-sum reset-this">0</span>
+                                <span class="money-span">$&nbsp;</span><span class="c-total-sum reset-this">0</span>
                             </div>
                     </div>
 
@@ -301,7 +301,7 @@
 
                             <div class="d-creative-cell mc-cell">
                                 <div class="d-creative-total sub-cell">
-                                    <span class="d-creative-range-total reset-this">0</span>
+                                    <span class="d-creative-range-total reset-this">0</span><span class="money-span">$</span>
                                 </div>
 
                                 <div class="d-creative-range mc-range">
@@ -313,18 +313,18 @@
 
                             <div class="d-print-cell mc-cell">
                                 <div class="d-print-total sub-cell">
-                                    <span class="d-print-range-total reset-this" >0</span>
+                                    <span class="d-print-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="d-print-range mc-range">
                                     <a id="d-print-dwn" class="dwn-btn d-sum" href="#"></a>
-                                    <div class="b-print-marker mc-marker"></div>
+                                    <div class="d-print-marker mc-marker"></div>
                                     <a id="d-print-up"  class="up-btn d-sum" href="#"></a>
                                 </div>
                             </div>
 
                             <div class="d-postage-cell mc-cell">
                                 <div class="d-postage-total sub-cell">
-                                    <span class="d-postage-range-total reset-this" >0</span>
+                                    <span class="d-postage-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="d-postage-range mc-range">
                                     <a id="d-postage-dwn" class="dwn-btn d-sum" href="#"></a>
@@ -335,7 +335,7 @@
 
                             <div class="d-list-cell mc-cell">
                                 <div class="d-list-total sub-cell">
-                                    <span class="d-list-range-total reset-this" >0</span>
+                                    <span class="d-list-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="d-list-range mc-range">
                                     <a id="d-list-dwn" class="dwn-btn d-sum" href="#"></a>
@@ -346,7 +346,7 @@
 
                             <div class="d-other-cell mc-cell">
                                 <div class="d-other-total sub-cell">
-                                    <span class="d-other-range-total reset-this" >0</span>
+                                    <span class="d-other-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="d-other-range mc-range">
                                     <a id="d-other-dwn" class="dwn-btn d-sum" href="#"></a>
@@ -356,7 +356,7 @@
                             </div>
 
                             <div class="d-total-cell total-cell">
-                                <span class="d-total-sum reset-this">0</span>
+                                <span class="money-span">$&nbsp;</span><span class="d-total-sum reset-this">0</span>
                             </div>
                     </div>
                     <div class="concept-e">
@@ -366,7 +366,7 @@
 
                             <div class="e-creative-cell mc-cell">
                                 <div class="e-creative-total sub-cell">
-                                    <span class="e-creative-range-total reset-this">0</span>
+                                    <span class="e-creative-range-total reset-this">0</span><span class="money-span">$</span>
                                 </div>
 
                                 <div class="e-creative-range mc-range">
@@ -378,7 +378,7 @@
 
                             <div class="e-print-cell mc-cell">
                                 <div class="e-print-total sub-cell">
-                                    <span class="e-print-range-total reset-this" >0</span>
+                                    <span class="e-print-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="e-print-range mc-range">
                                     <a id="e-print-dwn" class="dwn-btn e-sum" href="#"></a>
@@ -389,7 +389,7 @@
 
                             <div class="e-postage-cell mc-cell">
                                 <div class="e-postage-total sub-cell">
-                                    <span class="e-postage-range-total reset-this" >0</span>
+                                    <span class="e-postage-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="e-postage-range mc-range">
                                     <a id="e-postage-dwn" class="dwn-btn e-sum" href="#"></a>
@@ -400,7 +400,7 @@
 
                             <div class="e-list-cell mc-cell">
                                 <div class="e-list-total sub-cell">
-                                    <span class="e-list-range-total reset-this" >0</span>
+                                    <span class="e-list-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="e-list-range mc-range">
                                     <a id="e-list-dwn" class="dwn-btn e-sum" href="#"></a>
@@ -411,7 +411,7 @@
 
                             <div class="e-other-cell mc-cell">
                                 <div class="e-other-total sub-cell">
-                                    <span class="e-other-range-total reset-this" >0</span>
+                                    <span class="e-other-range-total reset-this" >0</span><span class="money-span">$</span>
                                 </div>
                                 <div class="e-other-range mc-range">
                                     <a id="e-other-dwn" class="dwn-btn e-sum" href="#"></a>
@@ -421,10 +421,34 @@
                             </div>
 
                             <div class="e-total-cell total-cell">
-                                <span class="e-total-sum reset-this">0</span>
+                                <span class="money-span">$&nbsp;</span><span class="e-total-sum reset-this">0</span>
                             </div>
                     </div>
-
+                    <div class="chart-body">
+                        <span class="head-main-span">Required Reponse Rate by Concept</span>
+                        <span class="head-span">(to attain Allowable Cost-per-Response)</span>
+                        <div class="chart-background">
+                        </div>
+                            <div class="col-con-a">
+                            </div>
+                            <div class="col-con-b">
+                            </div>
+                            <div class="col-con-c">
+                            </div>
+                            <div class="col-con-d">
+                            </div>
+                            <div class="col-con-e">
+                            </div>
+                            <div class="label-row">
+                                <ul class="col-label">
+                                    <li>Concept A <span class="col-a-percent percent">12</span>%</li>
+                                    <li>Concept B <span class="col-b-percent percent">12</span>%</li>
+                                    <li>Concept C <span class="col-c-percent percent">12</span>%</li>
+                                    <li>Concept D <span class="col-d-percent percent">12</span>%</li>
+                                    <li>Concept E <span class="col-e-percent percent">12</span>%</li>
+                                </ul>
+                            </div>
+                    </div>
 
 
 
@@ -610,25 +634,25 @@ jQuery(document).ready(function($){
         $('#a-postage-up').on('click',function(e){
           e.preventDefault();
           var aPostageRangeTotal = $('.a-postage-range-total');
-          var aPostageTotal = parseInt($(aPostageRangeTotal).text());
+          var aPostageTotal = parseFloat($(aPostageRangeTotal).text());
           var aPostageMarker = $('.a-postage-marker');  
           var aPostageMarkerPos = parseInt(aPostageMarker.css('margin-left').replace('px', ''));
-          if (aPostageTotal < 100) {
+          if (aPostageTotal < 1) {
           aPostageMarker.css({'margin-left': aPostageMarkerPos + 1});
-         
-          aPostageRangeTotal.text(aPostageTotal + 4);
+                var aPostageCents = (aPostageTotal + .04).toFixed(2);
+          aPostageRangeTotal.text(aPostageCents);
           } 
         });
         $('#a-postage-dwn').on('click',function(e){
           e.preventDefault();
           var aPostageRangeTotal = $('.a-postage-range-total');
-          var aPostageTotal = parseInt($(aPostageRangeTotal).text());
+          var aPostageTotal = parseFloat($(aPostageRangeTotal).text());
           var aPostageMarker = $('.a-postage-marker');  
           var aPostageMarkerPos = parseInt(aPostageMarker.css('margin-left').replace('px', ''));
           if (aPostageTotal > 0) {
           aPostageMarker.css({'margin-left': aPostageMarkerPos - 1});
-         
-          aPostageRangeTotal.text(aPostageTotal - 4);
+                var aPostageCents = (aPostageTotal - .04).toFixed(2);
+          aPostageRangeTotal.text(aPostageCents);
           } 
         });
         
@@ -683,19 +707,586 @@ jQuery(document).ready(function($){
         });
 
         $('.a-sum').on('click',function(e){
-          var mailQuantity = parseInt($('.mail-range-total').text());
-          var aCreativeAmount = parseInt($('.a-creative-range-total').text());
-          var aPrintAmount = parseInt($('.a-print-range-total').text());
-          var aPostageAmount = parseInt($('.a-postage-range-total').text());
-          var aListAmount = parseInt($('.a-list-range-total').text());
-          var aOtherAmount = parseInt($('.a-other-range-total').text());
+          var mailQuantity = parseFloat($('.mail-range-total').text());
+            console.log(mailQuantity);
+          var aCreativeAmount = parseFloat($('.a-creative-range-total').text());
+            console.log(aCreativeAmount);
+          var aPrintAmount = parseFloat($('.a-print-range-total').text());
+            console.log(aPrintAmount);
+          var aPostageAmount = parseFloat($('.a-postage-range-total').text());
+            console.log(aPostageAmount);
+          var aListAmount = parseFloat($('.a-list-range-total').text());
+          var aOtherAmount = parseFloat($('.a-other-range-total').text());
           var aPrintProccessed = aPrintAmount * (mailQuantity / 1000);
-          var aPostageProccessed = aPostageAmount * mailQuantity;
+            console.log(aPrintProccessed);
+          var aPostageProccessed = (aPostageAmount * mailQuantity);
+            console.log(aPostageProccessed);
           var aListProccessed = aListAmount * (mailQuantity/ 1000);
-          var aSumTotal = aCreativeAmount + aPrintProccessed + aPostageProccessed + aListProccessed + aOtherAmount;
+          var aSumTotal = (aCreativeAmount + aPrintProccessed + aPostageProccessed + aListProccessed + aOtherAmount);
           $('.a-total-sum').text(aSumTotal);
         });
+
+    $('#b-creative-up').on('click',function(e){
+        e.preventDefault();
+        var bCreativeRangeTotal = $('.b-creative-range-total');
+        var bCreativeTotal = parseInt($(bCreativeRangeTotal).text());
+        var bCreativeMarker = $('.b-creative-marker');
+        var bCreativeMarkerPos = parseInt(bCreativeMarker.css('margin-left').replace('px', ''));
+        if (bCreativeTotal < 100000) {
+            bCreativeMarker.css({'margin-left': bCreativeMarkerPos + 1});
+
+            bCreativeRangeTotal.text(bCreativeTotal + 4000);
+        }
     });
+    $('#b-creative-dwn').on('click',function(e){
+        e.preventDefault();
+        var bCreativeRangeTotal = $('.b-creative-range-total');
+        var bCreativeTotal = parseInt($(bCreativeRangeTotal).text());
+        var bCreativeMarker = $('.b-creative-marker');
+        var bCreativeMarkerPos = parseInt(bCreativeMarker.css('margin-left').replace('px', ''));
+        if (bCreativeTotal > 0) {
+            bCreativeMarker.css({'margin-left': bCreativeMarkerPos - 1});
+
+            bCreativeRangeTotal.text(bCreativeTotal - 4000);
+        }
+    });
+
+    $('#b-print-up').on('click',function(e){
+        e.preventDefault();
+        var bPrintRangeTotal = $('.b-print-range-total');
+        var bPrintTotal = parseInt($(bPrintRangeTotal).text());
+        var bPrintMarker = $('.b-print-marker');
+        var bPrintMarkerPos = parseInt(bPrintMarker.css('margin-left').replace('px', ''));
+        if (bPrintTotal < 1500) {
+            bPrintMarker.css({'margin-left': bPrintMarkerPos + 1});
+
+            bPrintRangeTotal.text(bPrintTotal + 60);
+        }
+    });
+    $('#b-print-dwn').on('click',function(e){
+        e.preventDefault();
+        var bPrintRangeTotal = $('.b-print-range-total');
+        var bPrintTotal = parseInt($(bPrintRangeTotal).text());
+        var bPrintMarker = $('.b-print-marker');
+        var bPrintMarkerPos = parseInt(bPrintMarker.css('margin-left').replace('px', ''));
+        if (bPrintTotal > 0) {
+            bPrintMarker.css({'margin-left': bPrintMarkerPos - 1});
+
+            bPrintRangeTotal.text(bPrintTotal - 60);
+        }
+    });
+
+    $('#b-postage-up').on('click',function(e){
+        e.preventDefault();
+        var bPostageRangeTotal = $('.b-postage-range-total');
+        var bPostageTotal = parseFloat($(bPostageRangeTotal).text());
+        var bPostageMarker = $('.b-postage-marker');
+        var bPostageMarkerPos = parseInt(bPostageMarker.css('margin-left').replace('px', ''));
+        if (bPostageTotal < 1) {
+            bPostageMarker.css({'margin-left': bPostageMarkerPos + 1});
+                var bPostageCents = (bPostageTotal + .04).toFixed(2);
+            bPostageRangeTotal.text(bPostageCents);
+        }
+    });
+    $('#b-postage-dwn').on('click',function(e){
+        e.preventDefault();
+        var bPostageRangeTotal = $('.b-postage-range-total');
+        var bPostageTotal = parseFloat($(bPostageRangeTotal).text());
+        var bPostageMarker = $('.b-postage-marker');
+        var bPostageMarkerPos = parseInt(bPostageMarker.css('margin-left').replace('px', ''));
+        if (bPostageTotal > 0) {
+            bPostageMarker.css({'margin-left': bPostageMarkerPos - 1});
+              var bPostageCents = (bPostageTotal - .04).toFixed(2);
+            bPostageRangeTotal.text(bPostageCents);
+        }
+    });
+
+    $('#b-list-up').on('click',function(e){
+        e.preventDefault();
+        var bListRangeTotal = $('.b-list-range-total');
+        var bListTotal = parseInt($(bListRangeTotal).text());
+        var bListMarker = $('.b-list-marker');
+        var bListMarkerPos = parseInt(bListMarker.css('margin-left').replace('px', ''));
+        if (bListTotal < 1500) {
+            bListMarker.css({'margin-left': bListMarkerPos + 1});
+
+            bListRangeTotal.text(bListTotal + 60);
+        }
+    });
+    $('#b-list-dwn').on('click',function(e){
+        e.preventDefault();
+        var bListRangeTotal = $('.b-list-range-total');
+        var bListTotal = parseInt($(bListRangeTotal).text());
+        var bListMarker = $('.b-list-marker');
+        var bListMarkerPos = parseInt(bListMarker.css('margin-left').replace('px', ''));
+        if (bListTotal > 0) {
+            bListMarker.css({'margin-left': bListMarkerPos - 1});
+
+            bListRangeTotal.text(bListTotal - 60);
+        }
+    });
+
+    $('#b-other-up').on('click',function(e){
+        e.preventDefault();
+        var bOtherRangeTotal = $('.b-other-range-total');
+        var bOtherTotal = parseInt($(bOtherRangeTotal).text());
+        var bOtherMarker = $('.b-other-marker');
+        var bOtherMarkerPos = parseInt(bOtherMarker.css('margin-left').replace('px', ''));
+        if (bOtherTotal < 100000) {
+            bOtherMarker.css({'margin-left': bOtherMarkerPos + 1});
+
+            bOtherRangeTotal.text(bOtherTotal + 4000);
+        }
+    });
+    $('#b-other-dwn').on('click',function(e){
+        e.preventDefault();
+        var bOtherRangeTotal = $('.b-other-range-total');
+        var bOtherTotal = parseInt($(bOtherRangeTotal).text());
+        var bOtherMarker = $('.b-other-marker');
+        var bOtherMarkerPos = parseInt(bOtherMarker.css('margin-left').replace('px', ''));
+        if (bOtherTotal > 0) {
+            bOtherMarker.css({'margin-left': bOtherMarkerPos - 1});
+
+            bOtherRangeTotal.text(bOtherTotal - 4000);
+        }
+    });
+
+    $('.b-sum').on('click',function(e){
+        var bmailQuantity = parseInt($('.mail-range-total').text());
+        var bCreativeAmount = parseInt($('.b-creative-range-total').text());
+        var bPrintAmount = parseInt($('.b-print-range-total').text());
+        var bPostageAmount = parseInt($('.b-postage-range-total').text());
+        var bListAmount = parseInt($('.b-list-range-total').text());
+        var bOtherAmount = parseInt($('.b-other-range-total').text());
+        var bPrintProccessed = bPrintAmount * (bmailQuantity / 1000);
+        var bPostageProccessed = bPostageAmount * bmailQuantity;
+        var bListProccessed = bListAmount * (bmailQuantity/ 1000);
+        var bSumTotal = bCreativeAmount + bPrintProccessed + bPostageProccessed + bListProccessed + bOtherAmount;
+        $('.b-total-sum').text(bSumTotal);
+    });
+
+    $('#c-creative-up').on('click',function(e){
+        e.preventDefault();
+        var cCreativeRangeTotal = $('.c-creative-range-total');
+        var cCreativeTotal = parseInt($(cCreativeRangeTotal).text());
+        var cCreativeMarker = $('.c-creative-marker');
+        var cCreativeMarkerPos = parseInt(cCreativeMarker.css('margin-left').replace('px', ''));
+        if (cCreativeTotal < 100000) {
+            cCreativeMarker.css({'margin-left': cCreativeMarkerPos + 1});
+
+            cCreativeRangeTotal.text(cCreativeTotal + 4000);
+        }
+    });
+    $('#c-creative-dwn').on('click',function(e){
+        e.preventDefault();
+        var cCreativeRangeTotal = $('.c-creative-range-total');
+        var cCreativeTotal = parseInt($(cCreativeRangeTotal).text());
+        var cCreativeMarker = $('.c-creative-marker');
+        var cCreativeMarkerPos = parseInt(cCreativeMarker.css('margin-left').replace('px', ''));
+        if (cCreativeTotal > 0) {
+            cCreativeMarker.css({'margin-left': cCreativeMarkerPos - 1});
+
+            cCreativeRangeTotal.text(cCreativeTotal - 4000);
+        }
+    });
+
+    $('#c-print-up').on('click',function(e){
+        e.preventDefault();
+        var cPrintRangeTotal = $('.c-print-range-total');
+        var cPrintTotal = parseInt($(cPrintRangeTotal).text());
+        var cPrintMarker = $('.c-print-marker');
+        var cPrintMarkerPos = parseInt(cPrintMarker.css('margin-left').replace('px', ''));
+        if (cPrintTotal < 1500) {
+            cPrintMarker.css({'margin-left': cPrintMarkerPos + 1});
+
+            cPrintRangeTotal.text(cPrintTotal + 60);
+        }
+    });
+    $('#c-print-dwn').on('click',function(e){
+        e.preventDefault();
+        var cPrintRangeTotal = $('.c-print-range-total');
+        var cPrintTotal = parseInt($(cPrintRangeTotal).text());
+        var cPrintMarker = $('.c-print-marker');
+        var cPrintMarkerPos = parseInt(cPrintMarker.css('margin-left').replace('px', ''));
+        if (cPrintTotal > 0) {
+            cPrintMarker.css({'margin-left': cPrintMarkerPos - 1});
+
+            cPrintRangeTotal.text(cPrintTotal - 60);
+        }
+    });
+
+    $('#c-postage-up').on('click',function(e){
+        e.preventDefault();
+        var cPostageRangeTotal = $('.c-postage-range-total');
+        var cPostageTotal = parseFloat($(cPostageRangeTotal).text());
+        var cPostageMarker = $('.c-postage-marker');
+        var cPostageMarkerPos = parseInt(cPostageMarker.css('margin-left').replace('px', ''));
+        if (cPostageTotal < 1) {
+            cPostageMarker.css({'margin-left': cPostageMarkerPos + 1});
+            var cPostageCents = (cPostageTotal + .04).toFixed(2);
+
+            cPostageRangeTotal.text(cPostageCents);
+        }
+    });
+    $('#c-postage-dwn').on('click',function(e){
+        e.preventDefault();
+        var cPostageRangeTotal = $('.c-postage-range-total');
+        var cPostageTotal = parseFloat($(cPostageRangeTotal).text());
+        var cPostageMarker = $('.c-postage-marker');
+        var cPostageMarkerPos = parseInt(cPostageMarker.css('margin-left').replace('px', ''));
+        if (cPostageTotal > 0) {
+            cPostageMarker.css({'margin-left': cPostageMarkerPos - 1});
+            var cPostageCents = (cPostageTotal - .04).toFixed(2);
+
+            cPostageRangeTotal.text(cPostageCents);
+        }
+    });
+
+    $('#c-list-up').on('click',function(e){
+        e.preventDefault();
+        var cListRangeTotal = $('.c-list-range-total');
+        var cListTotal = parseInt($(cListRangeTotal).text());
+        var cListMarker = $('.c-list-marker');
+        var cListMarkerPos = parseInt(cListMarker.css('margin-left').replace('px', ''));
+        if (cListTotal < 1500) {
+            cListMarker.css({'margin-left': cListMarkerPos + 1});
+
+            cListRangeTotal.text(cListTotal + 60);
+        }
+    });
+    $('#c-list-dwn').on('click',function(e){
+        e.preventDefault();
+        var cListRangeTotal = $('.c-list-range-total');
+        var cListTotal = parseInt($(cListRangeTotal).text());
+        var cListMarker = $('.c-list-marker');
+        var cListMarkerPos = parseInt(cListMarker.css('margin-left').replace('px', ''));
+        if (cListTotal > 0) {
+            cListMarker.css({'margin-left': cListMarkerPos - 1});
+
+            cListRangeTotal.text(cListTotal - 60);
+        }
+    });
+
+    $('#c-other-up').on('click',function(e){
+        e.preventDefault();
+        var cOtherRangeTotal = $('.c-other-range-total');
+        var cOtherTotal = parseInt($(cOtherRangeTotal).text());
+        var cOtherMarker = $('.c-other-marker');
+        var cOtherMarkerPos = parseInt(cOtherMarker.css('margin-left').replace('px', ''));
+        if (cOtherTotal < 100000) {
+            cOtherMarker.css({'margin-left': cOtherMarkerPos + 1});
+
+            cOtherRangeTotal.text(cOtherTotal + 4000);
+        }
+    });
+    $('#c-other-dwn').on('click',function(e){
+        e.preventDefault();
+        var cOtherRangeTotal = $('.c-other-range-total');
+        var cOtherTotal = parseInt($(cOtherRangeTotal).text());
+        var cOtherMarker = $('.c-other-marker');
+        var cOtherMarkerPos = parseInt(cOtherMarker.css('margin-left').replace('px', ''));
+        if (cOtherTotal > 0) {
+            cOtherMarker.css({'margin-left': cOtherMarkerPos - 1});
+
+            cOtherRangeTotal.text(cOtherTotal - 4000);
+        }
+    });
+
+    $('.c-sum').on('click',function(e){
+        var cmailQuantity = parseInt($('.mail-range-total').text());
+        var cCreativeAmount = parseInt($('.c-creative-range-total').text());
+        var cPrintAmount = parseInt($('.c-print-range-total').text());
+        var cPostageAmount = parseInt($('.c-postage-range-total').text());
+        var cListAmount = parseInt($('.c-list-range-total').text());
+        var cOtherAmount = parseInt($('.c-other-range-total').text());
+        var cPrintProccessed = cPrintAmount * (cmailQuantity / 1000);
+        var cPostageProccessed = cPostageAmount * cmailQuantity;
+        var cListProccessed = cListAmount * (cmailQuantity/ 1000);
+        var cSumTotal = cCreativeAmount + cPrintProccessed + cPostageProccessed + cListProccessed + cOtherAmount;
+        $('.c-total-sum').text(cSumTotal);
+    });
+    $('#d-creative-up').on('click',function(e){
+        e.preventDefault();
+        var dCreativeRangeTotal = $('.d-creative-range-total');
+        var dCreativeTotal = parseInt($(dCreativeRangeTotal).text());
+        var dCreativeMarker = $('.d-creative-marker');
+        var dCreativeMarkerPos = parseInt(dCreativeMarker.css('margin-left').replace('px', ''));
+        if (dCreativeTotal < 100000) {
+            dCreativeMarker.css({'margin-left': dCreativeMarkerPos + 1});
+
+            dCreativeRangeTotal.text(dCreativeTotal + 4000);
+        }
+    });
+    $('#d-creative-dwn').on('click',function(e){
+        e.preventDefault();
+        var dCreativeRangeTotal = $('.d-creative-range-total');
+        var dCreativeTotal = parseInt($(dCreativeRangeTotal).text());
+        var dCreativeMarker = $('.d-creative-marker');
+        var dCreativeMarkerPos = parseInt(dCreativeMarker.css('margin-left').replace('px', ''));
+        if (dCreativeTotal > 0) {
+            dCreativeMarker.css({'margin-left': dCreativeMarkerPos - 1});
+
+            dCreativeRangeTotal.text(dCreativeTotal - 4000);
+        }
+    });
+
+    $('#d-print-up').on('click',function(e){
+        e.preventDefault();
+        var dPrintRangeTotal = $('.d-print-range-total');
+        var dPrintTotal = parseInt($(dPrintRangeTotal).text());
+        var dPrintMarker = $('.d-print-marker');
+        var dPrintMarkerPos = parseInt(dPrintMarker.css('margin-left').replace('px', ''));
+        if (dPrintTotal < 1500) {
+            dPrintMarker.css({'margin-left': dPrintMarkerPos + 1});
+
+            dPrintRangeTotal.text(dPrintTotal + 60);
+        }
+    });
+    $('#d-print-dwn').on('click',function(e){
+        e.preventDefault();
+        var dPrintRangeTotal = $('.d-print-range-total');
+        var dPrintTotal = parseInt($(dPrintRangeTotal).text());
+        var dPrintMarker = $('.d-print-marker');
+        var dPrintMarkerPos = parseInt(dPrintMarker.css('margin-left').replace('px', ''));
+        if (dPrintTotal > 0) {
+            dPrintMarker.css({'margin-left': dPrintMarkerPos - 1});
+
+            dPrintRangeTotal.text(dPrintTotal - 60);
+        }
+    });
+
+    $('#d-postage-up').on('click',function(e){
+        e.preventDefault();
+        var dPostageRangeTotal = $('.d-postage-range-total');
+        var dPostageTotal = parseFloat($(dPostageRangeTotal).text());
+        var dPostageMarker = $('.d-postage-marker');
+        var dPostageMarkerPos = parseInt(dPostageMarker.css('margin-left').replace('px', ''));
+        if (dPostageTotal < 1) {
+            dPostageMarker.css({'margin-left': dPostageMarkerPos + 1});
+            var dPostageCents = (dPostageTotal + .04).toFixed(2);
+
+            dPostageRangeTotal.text(dPostageCents);
+        }
+    });
+    $('#d-postage-dwn').on('click',function(e){
+        e.preventDefault();
+        var dPostageRangeTotal = $('.d-postage-range-total');
+        var dPostageTotal = parseFloat($(dPostageRangeTotal).text());
+        var dPostageMarker = $('.d-postage-marker');
+        var dPostageMarkerPos = parseInt(dPostageMarker.css('margin-left').replace('px', ''));
+        if (dPostageTotal > 0) {
+            dPostageMarker.css({'margin-left': dPostageMarkerPos - 1});
+            var dPostageCents = (dPostageTotal - .04).toFixed(2);
+
+            dPostageRangeTotal.text(dPostageCents);
+        }
+    });
+
+    $('#d-list-up').on('click',function(e){
+        e.preventDefault();
+        var dListRangeTotal = $('.d-list-range-total');
+        var dListTotal = parseInt($(dListRangeTotal).text());
+        var dListMarker = $('.d-list-marker');
+        var dListMarkerPos = parseInt(dListMarker.css('margin-left').replace('px', ''));
+        if (dListTotal < 1500) {
+            dListMarker.css({'margin-left': dListMarkerPos + 1});
+
+            dListRangeTotal.text(dListTotal + 60);
+        }
+    });
+    $('#d-list-dwn').on('click',function(e){
+        e.preventDefault();
+        var dListRangeTotal = $('.d-list-range-total');
+        var dListTotal = parseInt($(dListRangeTotal).text());
+        var dListMarker = $('.d-list-marker');
+        var dListMarkerPos = parseInt(dListMarker.css('margin-left').replace('px', ''));
+        if (dListTotal > 0) {
+            dListMarker.css({'margin-left': dListMarkerPos - 1});
+
+            dListRangeTotal.text(dListTotal - 60);
+        }
+    });
+
+    $('#d-other-up').on('click',function(e){
+        e.preventDefault();
+        var dOtherRangeTotal = $('.d-other-range-total');
+        var dOtherTotal = parseInt($(dOtherRangeTotal).text());
+        var dOtherMarker = $('.d-other-marker');
+        var dOtherMarkerPos = parseInt(dOtherMarker.css('margin-left').replace('px', ''));
+        if (dOtherTotal < 100000) {
+            dOtherMarker.css({'margin-left': dOtherMarkerPos + 1});
+
+            dOtherRangeTotal.text(dOtherTotal + 4000);
+        }
+    });
+    $('#d-other-dwn').on('click',function(e){
+        e.preventDefault();
+        var dOtherRangeTotal = $('.d-other-range-total');
+        var dOtherTotal = parseInt($(dOtherRangeTotal).text());
+        var dOtherMarker = $('.d-other-marker');
+        var dOtherMarkerPos = parseInt(dOtherMarker.css('margin-left').replace('px', ''));
+        if (dOtherTotal > 0) {
+            dOtherMarker.css({'margin-left': dOtherMarkerPos - 1});
+
+            dOtherRangeTotal.text(dOtherTotal - 4000);
+        }
+    });
+
+    $('.d-sum').on('click',function(e){
+        var dmailQuantity = parseInt($('.mail-range-total').text());
+        var dCreativeAmount = parseInt($('.d-creative-range-total').text());
+        var dPrintAmount = parseInt($('.d-print-range-total').text());
+        var dPostageAmount = parseInt($('.d-postage-range-total').text());
+        var dListAmount = parseInt($('.d-list-range-total').text());
+        var dOtherAmount = parseInt($('.d-other-range-total').text());
+        var dPrintProccessed = dPrintAmount * (dmailQuantity / 1000);
+        var dPostageProccessed = dPostageAmount * dmailQuantity;
+        var dListProccessed = dListAmount * (dmailQuantity/ 1000);
+        var dSumTotal = dCreativeAmount + dPrintProccessed + dPostageProccessed + dListProccessed + dOtherAmount;
+        $('.d-total-sum').text(dSumTotal);
+    });
+
+    $('#e-creative-up').on('click',function(e){
+        e.preventDefault();
+        var eCreativeRangeTotal = $('.e-creative-range-total');
+        var eCreativeTotal = parseInt($(eCreativeRangeTotal).text());
+        var eCreativeMarker = $('.e-creative-marker');
+        var eCreativeMarkerPos = parseInt(eCreativeMarker.css('margin-left').replace('px', ''));
+        if (eCreativeTotal < 100000) {
+            eCreativeMarker.css({'margin-left': eCreativeMarkerPos + 1});
+
+            eCreativeRangeTotal.text(eCreativeTotal + 4000);
+        }
+    });
+    $('#e-creative-dwn').on('click',function(e){
+        e.preventDefault();
+        var eCreativeRangeTotal = $('.e-creative-range-total');
+        var eCreativeTotal = parseInt($(eCreativeRangeTotal).text());
+        var eCreativeMarker = $('.e-creative-marker');
+        var eCreativeMarkerPos = parseInt(eCreativeMarker.css('margin-left').replace('px', ''));
+        if (eCreativeTotal > 0) {
+            eCreativeMarker.css({'margin-left': eCreativeMarkerPos - 1});
+
+            eCreativeRangeTotal.text(eCreativeTotal - 4000);
+        }
+    });
+
+    $('#e-print-up').on('click',function(e){
+        e.preventDefault();
+        var ePrintRangeTotal = $('.e-print-range-total');
+        var ePrintTotal = parseInt($(ePrintRangeTotal).text());
+        var ePrintMarker = $('.e-print-marker');
+        var ePrintMarkerPos = parseInt(ePrintMarker.css('margin-left').replace('px', ''));
+        if (ePrintTotal < 1500) {
+            ePrintMarker.css({'margin-left': ePrintMarkerPos + 1});
+
+            ePrintRangeTotal.text(ePrintTotal + 60);
+        }
+    });
+    $('#e-print-dwn').on('click',function(e){
+        e.preventDefault();
+        var ePrintRangeTotal = $('.e-print-range-total');
+        var ePrintTotal = parseInt($(ePrintRangeTotal).text());
+        var ePrintMarker = $('.e-print-marker');
+        var ePrintMarkerPos = parseInt(ePrintMarker.css('margin-left').replace('px', ''));
+        if (ePrintTotal > 0) {
+            ePrintMarker.css({'margin-left': ePrintMarkerPos - 1});
+
+            ePrintRangeTotal.text(ePrintTotal - 60);
+        }
+    });
+
+    $('#e-postage-up').on('click',function(e){
+        e.preventDefault();
+        var ePostageRangeTotal = $('.e-postage-range-total');
+        var ePostageTotal = parseFloat($(ePostageRangeTotal).text());
+        var ePostageMarker = $('.e-postage-marker');
+        var ePostageMarkerPos = parseInt(ePostageMarker.css('margin-left').replace('px', ''));
+        if (ePostageTotal < 1) {
+            ePostageMarker.css({'margin-left': ePostageMarkerPos + 1});
+            var ePostageCents = (ePostageTotal + .04).toFixed(2);
+            ePostageRangeTotal.text(ePostageCents);
+        }
+    });
+    $('#e-postage-dwn').on('click',function(e){
+        e.preventDefault();
+        var ePostageRangeTotal = $('.e-postage-range-total');
+        var ePostageTotal = parseFloat($(ePostageRangeTotal).text());
+        var ePostageMarker = $('.e-postage-marker');
+        var ePostageMarkerPos = parseInt(ePostageMarker.css('margin-left').replace('px', ''));
+        if (ePostageTotal > 0) {
+            ePostageMarker.css({'margin-left': ePostageMarkerPos - 1});
+            var ePostageCents = (ePostageTotal - .04).toFixed(2);
+            ePostageRangeTotal.text(ePostageCents);
+        }
+    });
+
+    $('#e-list-up').on('click',function(e){
+        e.preventDefault();
+        var eListRangeTotal = $('.e-list-range-total');
+        var eListTotal = parseInt($(eListRangeTotal).text());
+        var eListMarker = $('.e-list-marker');
+        var eListMarkerPos = parseInt(eListMarker.css('margin-left').replace('px', ''));
+        if (eListTotal < 1500) {
+            eListMarker.css({'margin-left': eListMarkerPos + 1});
+
+            eListRangeTotal.text(eListTotal + 60);
+        }
+    });
+    $('#e-list-dwn').on('click',function(e){
+        e.preventDefault();
+        var eListRangeTotal = $('.e-list-range-total');
+        var eListTotal = parseInt($(eListRangeTotal).text());
+        var eListMarker = $('.e-list-marker');
+        var eListMarkerPos = parseInt(eListMarker.css('margin-left').replace('px', ''));
+        if (eListTotal > 0) {
+            eListMarker.css({'margin-left': eListMarkerPos - 1});
+
+            eListRangeTotal.text(eListTotal - 60);
+        }
+    });
+
+    $('#e-other-up').on('click',function(e){
+        e.preventDefault();
+        var eOtherRangeTotal = $('.e-other-range-total');
+        var eOtherTotal = parseInt($(eOtherRangeTotal).text());
+        var eOtherMarker = $('.e-other-marker');
+        var eOtherMarkerPos = parseInt(eOtherMarker.css('margin-left').replace('px', ''));
+        if (eOtherTotal < 100000) {
+            eOtherMarker.css({'margin-left': eOtherMarkerPos + 1});
+
+            eOtherRangeTotal.text(eOtherTotal + 4000);
+        }
+    });
+    $('#e-other-dwn').on('click',function(e){
+        e.preventDefault();
+        var eOtherRangeTotal = $('.e-other-range-total');
+        var eOtherTotal = parseInt($(eOtherRangeTotal).text());
+        var eOtherMarker = $('.e-other-marker');
+        var eOtherMarkerPos = parseInt(eOtherMarker.css('margin-left').replace('px', ''));
+        if (eOtherTotal > 0) {
+            eOtherMarker.css({'margin-left': eOtherMarkerPos - 1});
+
+            eOtherRangeTotal.text(eOtherTotal - 4000);
+        }
+    });
+
+    $('.e-sum').on('click',function(e){
+        var emailQuantity = parseInt($('.mail-range-total').text());
+        var eCreativeAmount = parseInt($('.e-creative-range-total').text());
+        var ePrintAmount = parseInt($('.e-print-range-total').text());
+        var ePostageAmount = parseInt($('.e-postage-range-total').text());
+        var eListAmount = parseInt($('.e-list-range-total').text());
+        var eOtherAmount = parseInt($('.e-other-range-total').text());
+        var ePrintProccessed = ePrintAmount * (emailQuantity / 1000);
+        var ePostageProccessed = ePostageAmount * emailQuantity;
+        var eListProccessed = eListAmount * (emailQuantity/ 1000);
+        var eSumTotal = eCreativeAmount + ePrintProccessed + ePostageProccessed + eListProccessed + eOtherAmount;
+        $('.e-total-sum').text(eSumTotal);
+    });
+
+
+});
 </script>
 <?php wp_footer(); ?>
 </body>
