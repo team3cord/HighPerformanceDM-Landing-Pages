@@ -719,9 +719,18 @@ jQuery(document).ready(function($){
           var aSumTotal = ((aCreativeAmount + aPrintProccessed + aPostageProccessed + aListProccessed + aOtherAmount).toFixed(2));
           $('.a-total-sum').text(aSumTotal);
           var aCostPer = parseFloat($('.allowable-range-total').text());
-          if (aSumTotal > 0) {
+          if (aSumTotal > 0 && aCostPer > 0 && mailQuantity > 0) {
           var aResponseNeeded = ((aSumTotal / aCostPer).toFixed(2));
-          alert(aResponseNeeded);
+          var aPercent = ((aResponseNeeded / mailQuantity)*1000).toFixed(2);
+          var aPercentInt = parseInt(aPercent);
+          $('.col-a-percent').text(aPercent);
+              if(aPercentInt > 100) {
+                $('.col-con-a').css ({'height': '100px'});
+               } else if(aPercent < 1) {
+                  $('.col-con-a').css({'height': '1'+'px'});
+              } else {
+                $('.col-con-a').css({'height': aPercentInt + 'px'});
+              }
           }
         });
     $('#b-creative-up').on('click',function(e){
