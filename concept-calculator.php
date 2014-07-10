@@ -441,11 +441,11 @@
                             </div>
                             <div class="label-row">
                                 <ul class="col-label">
-                                    <li>Concept A <span class="col-a-percent percent">0</span>%</li>
-                                    <li>Concept B <span class="col-b-percent percent">0</span>%</li>
-                                    <li>Concept C <span class="col-c-percent percent">0</span>%</li>
-                                    <li>Concept D <span class="col-d-percent percent">0</span>%</li>
-                                    <li>Concept E <span class="col-e-percent percent">0</span>%</li>
+                                    <li>Concept A <span class="col-a-percent percent reset-this">0</span>%</li>
+                                    <li>Concept B <span class="col-b-percent percent reset-this">0</span>%</li>
+                                    <li>Concept C <span class="col-c-percent percent reset-this">0</span>%</li>
+                                    <li>Concept D <span class="col-d-percent percent reset-this">0</span>%</li>
+                                    <li>Concept E <span class="col-e-percent percent reset-this">0</span>%</li>
                                 </ul>
                             </div>
                     </div>
@@ -528,6 +528,11 @@ jQuery(document).ready(function($){
           e.preventDefault();
           $('.reset-this').text(0);
           $('.mc-marker').css({'margin-left': 0});
+          $('.col-con-a').css({'height': '1px'});
+          $('.col-con-b').css({'height': '1px'});
+          $('.col-con-c').css({'height': '1px'});
+          $('.col-con-d').css({'height': '1px'});
+          $('.col-con-e').css({'height': '1px'});
         });
 
        
