@@ -441,11 +441,11 @@
                             </div>
                             <div class="label-row">
                                 <ul class="col-label">
-                                    <li>Concept A <span class="col-a-percent percent">12</span>%</li>
-                                    <li>Concept B <span class="col-b-percent percent">12</span>%</li>
-                                    <li>Concept C <span class="col-c-percent percent">12</span>%</li>
-                                    <li>Concept D <span class="col-d-percent percent">12</span>%</li>
-                                    <li>Concept E <span class="col-e-percent percent">12</span>%</li>
+                                    <li>Concept A <span class="col-a-percent percent">0</span>%</li>
+                                    <li>Concept B <span class="col-b-percent percent">0</span>%</li>
+                                    <li>Concept C <span class="col-c-percent percent">0</span>%</li>
+                                    <li>Concept D <span class="col-d-percent percent">0</span>%</li>
+                                    <li>Concept E <span class="col-e-percent percent">0</span>%</li>
                                 </ul>
                             </div>
                     </div>
@@ -724,8 +724,8 @@ jQuery(document).ready(function($){
           var aPercent = ((aResponseNeeded / mailQuantity)*1000).toFixed(2);
           var aPercentInt = parseInt(aPercent);
           $('.col-a-percent').text(aPercent);
-              if(aPercentInt > 100) {
-                $('.col-con-a').css ({'height': '100px'});
+              if(aPercentInt > 71) {
+                $('.col-con-a').css ({'height': '71px'});
                } else if(aPercent < 1) {
                   $('.col-con-a').css({'height': '1'+'px'});
               } else {
@@ -870,6 +870,20 @@ jQuery(document).ready(function($){
         var bListProccessed = bListAmount * (bmailQuantity/ 1000);
         var bSumTotal = ((bCreativeAmount + bPrintProccessed + bPostageProccessed + bListProccessed + bOtherAmount).toFixed(2));
         $('.b-total-sum').text(bSumTotal);
+        var bCostPer = parseFloat($('.allowable-range-total').text());
+        if (bSumTotal > 0 && bCostPer > 0 && bmailQuantity > 0) {
+            var bResponseNeeded = ((bSumTotal /bCostPer).toFixed(2));
+            var bPercent = ((bResponseNeeded / bmailQuantity)*1000).toFixed(2);
+            var bPercentInt = parseInt(bPercent);
+            $('.col-b-percent').text(bPercent);
+                if(bPercentInt > 71) {
+                    $('.col-con-b').css({'height': '71px'});
+                } else if (bPercent < 1) {
+                    $('.col-con-b').css({'height': '1'+'px'});
+                } else {
+                    $('.col-con-b').css({'height': bPercentInt +'px'});
+                }
+        }
     });
 
     $('#c-creative-up').on('click',function(e){
@@ -1011,6 +1025,20 @@ jQuery(document).ready(function($){
         var cListProccessed = cListAmount * (cmailQuantity/ 1000);
         var cSumTotal = ((cCreativeAmount + cPrintProccessed + cPostageProccessed + cListProccessed + cOtherAmount).toFixed(2));
         $('.c-total-sum').text(cSumTotal);
+        var cCostPer = parseFloat($('.allowable-range-total').text());
+        if (cSumTotal > 0 && cCostPer > 0 && cmailQuantity > 0) {
+            var cResponseNeeded = ((cSumTotal /cCostPer).toFixed(2));
+            var cPercent = ((cResponseNeeded / cmailQuantity)*1000).toFixed(2);
+            var cPercentInt = parseInt(cPercent);
+            $('.col-c-percent').text(cPercent);
+                if(cPercentInt > 71) {
+                    $('.col-con-c').css({'height': '71px'});
+                } else if (cPercent < 1) {
+                    $('.col-con-c').css({'height': '1'+'px'});
+                } else {
+                    $('.col-con-c').css({'height': cPercentInt +'px'});
+                }
+        }
     });
     $('#d-creative-up').on('click',function(e){
         e.preventDefault();
@@ -1151,6 +1179,20 @@ jQuery(document).ready(function($){
         var dListProccessed = dListAmount * (dmailQuantity/ 1000);
         var dSumTotal = ((dCreativeAmount + dPrintProccessed + dPostageProccessed + dListProccessed + dOtherAmount).toFixed(2));
         $('.d-total-sum').text(dSumTotal);
+        var dCostPer = parseFloat($('.allowable-range-total').text());
+        if (dSumTotal > 0 && dCostPer > 0 && dmailQuantity > 0) {
+            var dResponseNeeded = ((dSumTotal /dCostPer).toFixed(2));
+            var dPercent = ((dResponseNeeded / dmailQuantity)*1000).toFixed(2);
+            var dPercentInt = parseInt(dPercent);
+            $('.col-d-percent').text(dPercent);
+                if(dPercentInt > 71) {
+                    $('.col-con-d').css({'height': '71px'});
+                } else if (dPercent < 1) {
+                    $('.col-con-d').css({'height': '1'+'px'});
+                } else {
+                    $('.col-con-d').css({'height': dPercentInt +'px'});
+                }
+        }
     });
 
     $('#e-creative-up').on('click',function(e){
@@ -1290,6 +1332,20 @@ jQuery(document).ready(function($){
         var eListProccessed = eListAmount * (emailQuantity/ 1000);
         var eSumTotal = ((eCreativeAmount + ePrintProccessed + ePostageProccessed + eListProccessed + eOtherAmount).toFixed(2));
         $('.e-total-sum').text(eSumTotal);
+        var eCostPer = parseFloat($('.allowable-range-total').text());
+        if (eSumTotal > 0 && eCostPer > 0 && emailQuantity > 0) {
+            var eResponseNeeded = ((eSumTotal /eCostPer).toFixed(2));
+            var ePercent = ((eResponseNeeded / emailQuantity)*1000).toFixed(2);
+            var ePercentInt = parseInt(ePercent);
+            $('.col-e-percent').text(ePercent);
+                if(ePercentInt > 71) {
+                    $('.col-con-e').css({'height': '71px'});
+                } else if (ePercent < 1) {
+                    $('.col-con-e').css({'height': '1'+'px'});
+                } else {
+                    $('.col-con-e').css({'height': ePercentInt +'px'});
+                }
+        }
     });
 
 
